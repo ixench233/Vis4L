@@ -1,411 +1,583 @@
 [
   {
     "type": "category",
-    "title": "Major Category",
-    "description": "Major Category",
-    "entries": [
-      {
-        "type": "category",
-        "title": "Representation & Rendering",
-        "description": "Representation & Rendering",
-        "childrenDescription": "Representation & Rendering:",
-        "entries": [
-          {
-            "type": "category-entry",
-            "title": "rendering",
-            "description": "Rendering",
-            "content": "Rendering"
-          },
-          {
-            "type": "category-entry",
-            "title": "perception",
-            "description": "Perception & Color",
-            "content": "Perception & Color"
-          },
-          {
-            "type": "category-entry",
-            "title": "hierarchical",
-            "description": "Hierarchical Structure Layout",
-            "content": "Hierarchical Structure"
-          },
-          {
-            "type": "category-entry",
-            "title": "geographic",
-            "description": "Geographic Map Layout",
-            "content": "Geographic Map Layout"
-          },
-          {
-            "type": "category-entry",
-            "title": "grid",
-            "description": "Grid & Rectangle Layout",
-            "content": "Grid & Rectangle Layout"
-          },
-          
-          {
-            "type": "category-entry",
-            "title": "node-link",
-            "description": "Node-Link Graph Layout",
-            "content": "Node-Link Graph Layout"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "title": "data enhancement",
-        "description": "Data Enhancement & Transformation",
-        "childrenDescription": "Data Enhancement & Transformation: ",
-        "entries": [
-          {
-            "type": "category-entry",
-            "title": "refinement",
-            "description": "Data Refinement",
-            "content": "Data Refinement"
-          },
-         
-          {
-            "type": "category-entry",
-            "title": "classification",
-            "description": "Data Classification",
-            "content": "Data Classification"
-          },
-          {
-            "type": "category-entry",
-            "title": "dimension",
-            "description": "Dimension Reduction",
-            "content": "Dimension Reduction"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "title": "interactive exploration",
-        "description": "Interactive Exploration",
-        "childrenDescription": "Interactive Exploration & Analysis: ",
-        "entries": [
-          {
-            "type": "category-entry",
-            "title": "navigation",
-            "description": "Navigation",
-            "content": "Navigation"
-          },
-          {
-            "type": "category-entry",
-            "title": "filter",
-            "description": "Filter",
-            "content": "Filter"
-          },
-          {
-            "type": "category-entry",
-            "title": "reconfigure",
-            "description": "Reconfigure",
-            "content": "Reconfigure"
-          }
-        ]
-      }
-    ]
-  },
-
-
-
-  {
-    "type": "category",
-    "title": "Solution method",
-    "description": "Solution method",
-    "entries": [
-      {
-        "type": "category",
-        "title": "data structure",
-        "description": "Data Structure",
-        "childrenDescription": "Data Structure and Algorithm: ",
-        "entries": [
-          {
-            "type": "category-entry",
-            "title": "grid search",
-            "description": "Grid Search",
-            "content": "Grid Search"
-          },
-          {
-            "type": "category-entry",
-            "title": "partitioned recursion",
-            "description": "Partitioned recursion",
-            "content": "Partitioned recursion"
-          },
-          {
-            "type": "category-entry",
-            "title": "graph theory algorithm",
-            "description": "Graph Theory Algorithm",
-            "content": "Graph Theory Algorithm"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "title": "heuristic algorithm",
-        "description": "Heuristic Algorithm",
-        "childrenDescription": "Heuristic Algorithm: ",
-        "entries": [
-          {
-            "type": "category-entry",
-            "title": "intelligent optimization",
-            "description": "Intelligent optimization",
-            "content": "Intelligent optimization"
-          },
-          {
-            "type": "category-entry",
-            "title": "simple heuristic",
-            "description": "Simple Heuristic Algorithm",
-            "content": "Simple Heuristic Algorithm"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "title": "line search",
-        "description": "Line Search Method",
-        "childrenDescription": "Line Search Method: ",
-        "entries": [
-          {
-            "type": "category-entry",
-            "title": "active set method",
-            "description": "Active set method",
-            "content": "Active set method"
-          },
-          {
-            "type": "category-entry",
-            "title": "gradient-free",
-            "description": "Gradient-free optimization method",
-            "content": "Gradient-free optimization"
-          },
-          {
-            "type": "category-entry",
-            "title": "first order",
-            "description": "First order Gradient-based Optimization Algorithm",
-            "content": "First order Gradient-based"
-          },
-          {
-            "type": "category-entry",
-            "title": "second order",
-            "description": "Second-order Gradient-based Optimization Algorithm",
-            "content": "Second-order Gradient-based"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "title": "solver",
-        "description": "Solver",
-        "childrenDescription": "Solver",
-        "entries": [
-          {
-            "type": "category-entry",
-            "title": "solver",
-            "description": "Solver",
-            "content": "Solver"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "title": "planning algorithm",
-        "description": "Planning Algorithm",
-        "childrenDescription": "Planning Algorithm",
-        "entries": [
-          {
-            "type": "category-entry",
-            "title": "simplex method",
-            "description": "Simplex Method",
-            "content": "Simplex Method"
-          },
-          {
-            "type": "category-entry",
-            "title": "hungarian",
-            "description": "Hungarian Method",
-            "content": "Hungarian Method"
-          },
-          {
-            "type": "category-entry",
-            "title": "dynamic",
-            "description": "Dynamic Programming",
-            "content": "Dynamic Programming"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "title": "other method",
-        "description": "Other Method",
-        "childrenDescription": "Other Method: ",
-        "entries": [
-          {
-            "type": "category-entry",
-            "title": "other1",
-            "description": "Others",
-            "content": "Others"
-          },
-          {
-            "type": "category-entry",
-            "title": "analytic method",
-            "description": "Analytic Method",
-            "content": "Analytic Method"
-          },
-          {
-            "type": "category-entry",
-            "title": "two",
-            "description": "Two-Stage Method",
-            "content": "Two-Stage Method"
-          },
-         
-          {
-            "type": "category-entry",
-            "title": "approximation",
-            "description": "Approximation Algorithm",
-            "content": "Approximation Algorithm"
-          },
-          
-         
-          {
-            "type": "category-entry",
-            "title": "numerical algebraic method",
-            "description": "Numerical algebraic Method",
-            "content": "Numerical algebraic Method"
-          }
-          
-        ]
-      }
-    ]
-  },
-
-
-  {
-    "type": "category",
-    "title": "Single-objective/Multi-objective",
-    "description": "Single-objective/Multi-objective",
-    "childrenDescription": "Single/Multi: ",
+    "title": "salon",
+    "description": "SALON Reference Model",
+    "childrenDescription": "SALON Reference Model: ",
     "entries": [
       {
         "type": "category-entry",
-        "title": "single-objective",
-        "description": "Single-objective",
-        "content": "Single-objective"
+        "title": "salon-视觉语言-协同学习",
+        "description": "视觉语言-协同学习",
+        "content": "视觉语言-协同学习"
       },
       {
         "type": "category-entry",
-        "title": "multi-objective",
-        "description": "Multi-objective",
-        "content": "Multi-objective"
-      }
-    ]
-  },
-
-  {
-    "type": "category",
-    "title": "Linear/Nonlinear",
-    "description": "Linear/Nonlinear",
-    "childrenDescription": "Linear/Nonlinear: ",
-    "entries": [
-      {
-        "type": "category-entry",
-        "title": "linear",
-        "description": "Linear",
-        "content": "Linear"
+        "title": "salon-视觉语言-对齐",
+        "description": "视觉语言-对齐",
+        "content": "视觉语言-对齐"
       },
       {
         "type": "category-entry",
-        "title": "nonlinear",
-        "description": "Nonlinear",
-        "content": "Nonlinear"
+        "title": "salon-视觉语言-融合",
+        "description": "视觉语言-融合",
+        "content": "视觉语言-融合"
+      },
+      {
+        "type": "category-entry",
+        "title": "salon-视觉语言-表示",
+        "description": "视觉语言-表示",
+        "content": "视觉语言-表示"
+      },
+      {
+        "type": "category-entry",
+        "title": "salon-视觉语言-转译",
+        "description": "视觉语言-转译",
+        "content": "视觉语言-转译"
       }
     ]
   },
   {
     "type": "category",
-    "title": "Discrete/Continuous/Mixed",
-    "description": "Discrete/Continuous/Mixed",
-    "childrenDescription": "Discrete/Continuous/Mixed: ",
+    "title": "task",
+    "description": "Downstream Task",
+    "childrenDescription": "Downstream Task: ",
     "entries": [
       {
         "type": "category-entry",
-        "title": "discrete",
-        "description": "Discrete",
-        "content": "Discrete"
+        "title": "task-基础模型可视解释",
+        "description": "基础模型可视解释",
+        "content": "基础模型可视解释"
       },
       {
         "type": "category-entry",
-        "title": "mixed",
-        "description": "Mixed",
-        "content": "Mixed"
+        "title": "task-多模态协同分析任务",
+        "description": "多模态协同分析任务",
+        "content": "多模态协同分析任务"
       },
       {
         "type": "category-entry",
-        "title": "continuous",
-        "description": "Continuous",
-        "content": "Continuous"
+        "title": "task-跨模态关联与匹配任务-匹配",
+        "description": "跨模态关联与匹配任务-匹配",
+        "content": "跨模态关联与匹配任务-匹配"
+      },
+      {
+        "type": "category-entry",
+        "title": "task-跨模态关联与匹配任务-定位",
+        "description": "跨模态关联与匹配任务-定位",
+        "content": "跨模态关联与匹配任务-定位"
+      },
+      {
+        "type": "category-entry",
+        "title": "task-跨模态关联与匹配任务-检索",
+        "description": "跨模态关联与匹配任务-检索",
+        "content": "跨模态关联与匹配任务-检索"
+      },
+      {
+        "type": "category-entry",
+        "title": "task-跨模态理解与推理任务-分类",
+        "description": "跨模态理解与推理任务-分类",
+        "content": "跨模态理解与推理任务-分类"
+      },
+      {
+        "type": "category-entry",
+        "title": "task-跨模态理解与推理任务-对话",
+        "description": "跨模态理解与推理任务-对话",
+        "content": "跨模态理解与推理任务-对话"
+      },
+      {
+        "type": "category-entry",
+        "title": "task-跨模态理解与推理任务-注释",
+        "description": "跨模态理解与推理任务-注释",
+        "content": "跨模态理解与推理任务-注释"
+      },
+      {
+        "type": "category-entry",
+        "title": "task-跨模态理解与推理任务-问答",
+        "description": "跨模态理解与推理任务-问答",
+        "content": "跨模态理解与推理任务-问答"
+      },
+      {
+        "type": "category-entry",
+        "title": "task-跨模态生成任务-图生文",
+        "description": "跨模态生成任务-图生文",
+        "content": "跨模态生成任务-图生文"
+      },
+      {
+        "type": "category-entry",
+        "title": "task-跨模态生成任务-文生图",
+        "description": "跨模态生成任务-文生图",
+        "content": "跨模态生成任务-文生图"
       }
     ]
   },
   {
     "type": "category",
-    "title": "Constrained/Unconstrained",
-    "description": "Constrained/Unconstrained",
-    "childrenDescription": "Constrained/Unconstrained: ",
+    "title": "modality",
+    "description": "Modality Combination",
+    "childrenDescription": "Modality Combination: ",
     "entries": [
       {
         "type": "category-entry",
-        "title": "constrained",
-        "description": "Constrained",
-        "content": "Constrained"
+        "title": "modality-其他",
+        "description": "其他",
+        "content": "其他"
       },
       {
         "type": "category-entry",
-        "title": "unconstrained",
-        "description": "Unconstrained",
-        "content": "Unconstrained"
+        "title": "modality-可视分析系统-文本",
+        "description": "可视分析系统-文本",
+        "content": "可视分析系统-文本"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-图表图像-文本",
+        "description": "图表图像-文本",
+        "content": "图表图像-文本"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-图表图像-文本-语音",
+        "description": "图表图像-文本-语音",
+        "content": "图表图像-文本-语音"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-数据视频-文本",
+        "description": "数据视频-文本",
+        "content": "数据视频-文本"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-数据视频-文本-语音",
+        "description": "数据视频-文本-语音",
+        "content": "数据视频-文本-语音"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-文本",
+        "description": "文本",
+        "content": "文本"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-文档-文本-可视化",
+        "description": "文档-文本-可视化",
+        "content": "文档-文本-可视化"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-科学图像-文本",
+        "description": "科学图像-文本",
+        "content": "科学图像-文本"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-自然图像",
+        "description": "自然图像",
+        "content": "自然图像"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-自然图像-文本",
+        "description": "自然图像-文本",
+        "content": "自然图像-文本"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-自然图像-文本-语音",
+        "description": "自然图像-文本-语音",
+        "content": "自然图像-文本-语音"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-自然视频-可视化",
+        "description": "自然视频-可视化",
+        "content": "自然视频-可视化"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-自然视频-文本",
+        "description": "自然视频-文本",
+        "content": "自然视频-文本"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-自然视频-文本-可视化",
+        "description": "自然视频-文本-可视化",
+        "content": "自然视频-文本-可视化"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-自然视频-文本-语音",
+        "description": "自然视频-文本-语音",
+        "content": "自然视频-文本-语音"
+      },
+      {
+        "type": "category-entry",
+        "title": "modality-语音-文本",
+        "description": "语音-文本",
+        "content": "语音-文本"
       }
     ]
   },
   {
     "type": "category",
-    "title": "Challenge",
-    "description": "Challenge",
-    "childrenDescription": "Challenge: ",
+    "title": "model",
+    "description": "Model",
+    "childrenDescription": "Model: ",
     "entries": [
-    
-     
       {
         "type": "category-entry",
-        "title": "model scalability",
-        "description": "Model Scalability",
-        "content": "Model Scalability"
+        "title": "model-baichuan系列",
+        "description": "Baichuan系列",
+        "content": "Baichuan系列"
       },
       {
         "type": "category-entry",
-        "title": "theory research",
-        "description": "Theory research",
-        "content": "Theory research"
+        "title": "model-bert系列",
+        "description": "BERT系列",
+        "content": "BERT系列"
       },
       {
         "type": "category-entry",
-        "title": "visual interaction",
-        "description": "Visual interaction",
-        "content": "Visual interaction"
-      }, 
-      {
-        "type": "category-entry",
-        "title": "model generalization",
-        "description": "Model Generalization",
-        "content": "Model Generalization"
+        "title": "model-blip系列",
+        "description": "BLIP系列",
+        "content": "BLIP系列"
       },
       {
         "type": "category-entry",
-        "title": "application",
-        "description": "Application",
-        "content": "Application"
+        "title": "model-claude系列",
+        "description": "Claude系列",
+        "content": "Claude系列"
       },
       {
         "type": "category-entry",
-        "title": "evaluation",
-        "description": "Evaluation",
-        "content": "Evaluation"
+        "title": "model-clip",
+        "description": "CLIP",
+        "content": "CLIP"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-cnn架构",
+        "description": "CNN架构",
+        "content": "CNN架构"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-dall-e",
+        "description": "DALL-E",
+        "content": "DALL-E"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-deepseek系列",
+        "description": "DeepSeek系列",
+        "content": "DeepSeek系列"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-dino",
+        "description": "DINO",
+        "content": "DINO"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-gemini系列",
+        "description": "Gemini系列",
+        "content": "Gemini系列"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-gemma系列",
+        "description": "Gemma系列",
+        "content": "Gemma系列"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-gpt系列",
+        "description": "GPT系列",
+        "content": "GPT系列"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-lamda",
+        "description": "LaMDA",
+        "content": "LaMDA"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-llava",
+        "description": "LLaVA",
+        "content": "LLaVA"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-lstm架构",
+        "description": "LSTM架构",
+        "content": "LSTM架构"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-qwen系列",
+        "description": "Qwen系列",
+        "content": "Qwen系列"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-rnn架构",
+        "description": "RNN架构",
+        "content": "RNN架构"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-sam",
+        "description": "SAM",
+        "content": "SAM"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-sdxl",
+        "description": "SDXL",
+        "content": "SDXL"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-stable-diffusion",
+        "description": "Stable Diffusion",
+        "content": "Stable Diffusion"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-transformer架构",
+        "description": "Transformer架构",
+        "content": "Transformer架构"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-vit",
+        "description": "ViT",
+        "content": "ViT"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-其他",
+        "description": "其他",
+        "content": "其他"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-领域模型",
+        "description": "领域模型",
+        "content": "领域模型"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "title": "vis_encoding",
+    "description": "Visual Encoding",
+    "childrenDescription": "Visual Encoding: ",
+    "entries": [
+      {
+        "type": "category-entry",
+        "title": "vis_encoding-分布型编码",
+        "description": "分布型编码",
+        "content": "分布型编码"
+      },
+      {
+        "type": "category-entry",
+        "title": "vis_encoding-层级型编码",
+        "description": "层级型编码",
+        "content": "层级型编码"
+      },
+      {
+        "type": "category-entry",
+        "title": "vis_encoding-时序型编码",
+        "description": "时序型编码",
+        "content": "时序型编码"
+      },
+      {
+        "type": "category-entry",
+        "title": "vis_encoding-离散型编码",
+        "description": "离散型编码",
+        "content": "离散型编码"
+      },
+      {
+        "type": "category-entry",
+        "title": "vis_encoding-符号编码",
+        "description": "符号编码",
+        "content": "符号编码"
+      },
+      {
+        "type": "category-entry",
+        "title": "vis_encoding-结构型编码",
+        "description": "结构型编码",
+        "content": "结构型编码"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "title": "interaction",
+    "description": "Interaction Technique",
+    "childrenDescription": "Interaction Technique: ",
+    "entries": [
+      {
+        "type": "category-entry",
+        "title": "interaction-what-if操作",
+        "description": "What-If操作",
+        "content": "What-If操作"
+      },
+      {
+        "type": "category-entry",
+        "title": "interaction-关联操作",
+        "description": "关联操作",
+        "content": "关联操作"
+      },
+      {
+        "type": "category-entry",
+        "title": "interaction-筛选操作",
+        "description": "筛选操作",
+        "content": "筛选操作"
+      },
+      {
+        "type": "category-entry",
+        "title": "interaction-视点操作",
+        "description": "视点操作",
+        "content": "视点操作"
+      },
+      {
+        "type": "category-entry",
+        "title": "interaction-记录操作",
+        "description": "记录操作",
+        "content": "记录操作"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "title": "evaluation",
+    "description": "Evaluation Method",
+    "childrenDescription": "Evaluation Method: ",
+    "entries": [
+      {
+        "type": "category-entry",
+        "title": "evaluation-人类用户体验",
+        "description": "人类用户体验",
+        "content": "人类用户体验"
+      },
+      {
+        "type": "category-entry",
+        "title": "evaluation-人类用户表现",
+        "description": "人类用户表现",
+        "content": "人类用户表现"
+      },
+      {
+        "type": "category-entry",
+        "title": "evaluation-定性案例分析",
+        "description": "定性案例分析",
+        "content": "定性案例分析"
+      },
+      {
+        "type": "category-entry",
+        "title": "evaluation-定量指标评估",
+        "description": "定量指标评估",
+        "content": "定量指标评估"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "title": "domain",
+    "description": "Application Domain",
+    "childrenDescription": "Application Domain: ",
+    "entries": [
+      {
+        "type": "category-entry",
+        "title": "domain-交通领域",
+        "description": "交通领域",
+        "content": "交通领域"
+      },
+      {
+        "type": "category-entry",
+        "title": "domain-体育运动领域",
+        "description": "体育运动领域",
+        "content": "体育运动领域"
+      },
+      {
+        "type": "category-entry",
+        "title": "domain-其他",
+        "description": "其他",
+        "content": "其他"
+      },
+      {
+        "type": "category-entry",
+        "title": "domain-医学生物领域",
+        "description": "医学生物领域",
+        "content": "医学生物领域"
+      },
+      {
+        "type": "category-entry",
+        "title": "domain-历史文物领域",
+        "description": "历史文物领域",
+        "content": "历史文物领域"
+      },
+      {
+        "type": "category-entry",
+        "title": "domain-地理环境领域",
+        "description": "地理环境领域",
+        "content": "地理环境领域"
+      },
+      {
+        "type": "category-entry",
+        "title": "domain-教育学习领域",
+        "description": "教育学习领域",
+        "content": "教育学习领域"
+      },
+      {
+        "type": "category-entry",
+        "title": "domain-电子商务领域",
+        "description": "电子商务领域",
+        "content": "电子商务领域"
+      },
+      {
+        "type": "category-entry",
+        "title": "domain-社交媒体领域",
+        "description": "社交媒体领域",
+        "content": "社交媒体领域"
+      },
+      {
+        "type": "category-entry",
+        "title": "domain-艺术创作领域",
+        "description": "艺术创作领域",
+        "content": "艺术创作领域"
+      },
+      {
+        "type": "category-entry",
+        "title": "domain-通用领域",
+        "description": "通用领域",
+        "content": "通用领域"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "title": "special_tags",
+    "description": "Special Tags",
+    "childrenDescription": "Special Tags: ",
+    "entries": [
+      {
+        "type": "category-entry",
+        "title": "special_tags-agent",
+        "description": "Agent",
+        "content": "Agent"
+      },
+      {
+        "type": "category-entry",
+        "title": "special_tags-rag",
+        "description": "RAG",
+        "content": "RAG"
       }
     ]
   }

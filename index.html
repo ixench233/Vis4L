@@ -4,11 +4,11 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="MPM Survey"/>
-    <meta name="author" content="Gopher"/>
+    <meta name="description" content="Vis4VL Survey"/>
+    <meta name="author" content="ZJUTVIS"/>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <title>
-        MODV Survey
+        Vis4VL
     </title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
@@ -67,7 +67,7 @@
 
             <div class="navbar-header-container">
                 <div class="navbar-header-top">
-                    <span class="navbar-brand-title">Application of Mathematical Optimization in Data Visualization and Visual Analytics: A Survey</span>
+                    <span class="navbar-brand-title">Vis4VL: Visualization for Vision-Language Research</span>
                 </div>
 
                 <div class="navbar-header-bottom">
@@ -77,9 +77,6 @@
                     <ul class="nav navbar-nav">
                         <li>
                             <a href="#" data-toggle="modal" data-target="#summaryTableModal">Summary</a>
-                        </li>
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#scatterModal3">Scatter</a>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other surveys <b class="caret"></b></a>
@@ -106,25 +103,6 @@
     </div>
 </div>
 
-<!--<ul id="filtersTabList" class="nav nav-tabs" role="tablist">-->
-<!--    &nbsp; &nbsp;-->
-<!--    <button class="hello" type="button">-->
-<!--        <li role="presentation" class="active">-->
-<!--            <a href="#" data-toggle="modal" data-target="#summaryTableModal"-->
-<!--            >Summary</a-->
-<!--            >-->
-<!--        </li>-->
-<!--    </button>-->
-
-<!--    <button class="hello">-->
-<!--        <li role="presentation" class="active">-->
-<!--            <a href="#" data-toggle="modal" data-target="#scatterModal3"-->
-<!--            >Scatter</a-->
-<!--            >-->
-<!--        </li>-->
-<!--    </button>-->
-<!--</ul>-->
-
 <!-- Main content wrapper -->
 <table class="content-wrapper">
     <tr class="content-row">
@@ -136,7 +114,7 @@
                 >
                     <div class="panel-body">
                         <h5 class="entries-count-label panel-label">
-                            Techniques displayed:
+                            Papers displayed:
                         </h5>
                         <div id="displayedEntriesCount"></div>
                     </div>
@@ -195,11 +173,11 @@
         <div class="footer">
             <hr/>
             <p class="text-muted credit no-top-margin no-bottom-margin">
-                © ZJUTVIS group 2020-2023. All rights for the technique images
+                © ZJUTVIS group. All rights for the paper images
                 belong to their respective owners.
             </p>
             <p class="text-muted credit no-top-margin no-bottom-margin">
-                Last updated: Mar. 28, 2023
+                Last updated: Apr. 26, 2026
             </p>
             <!-- <p class="text-muted credit no-top-margin no-bottom-margin">
                       This website is using Google Analytics (for statistical purposes only) and cookies (for dismissible
@@ -256,6 +234,7 @@
                         <h6 id="entryDetailsReference" class="entry-details-field"></h6>
                         <h6 id="entryDetailsUrl" class="entry-details-field"></h6>
                         <h6 id="entryDetailsBibtex" class="entry-details-field"></h6>
+                        <div id="entryDetailsExtra" class="entry-details-field entry-details-extra"></div>
                     </div>
                 </div>
             </div>
@@ -300,149 +279,5 @@
 </div>
 <!-- /.modal -->
 
-<div
-        id="scatterModal3"
-        class="modal fade"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="summaryTableTitle"
-        aria-hidden="true"
-        data-backdrop="static"
->
-    <div class="modal-dialog modal-max">
-        <div class="modal-content"  id="scatter_top">
-            <div class="modal-body">
-                <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-hidden="true"
-                >
-                    &times;
-                </button>
-                <h2>scatter</h2>
-            </div>
-            <div class="con2">
-
-                <div id="contain" style="height:45em; width: 45em;" class="con1"></div>
-
-                <div id="contain2" style="height:45em; width: 45em;" class="con1"></div>
-                <div id="con3" style="height:45em; width: 45em;" class="con1"></div>
-                <div id="contain4" style="height:45em; width: 45em;" class="con1"></div>
-
-                <table class="tb1">
-                    <tr>
-                        <td style="height:55px;width:50px;">
-                            <div style="background-color:rgb(139, 139, 61);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Data Refinement</td>
-                        <td>
-                            <div style="background-color:rgb(234, 51, 153);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Hierarchical Structure Layout</td>
-                        <td>
-                            <div style="background-color:rgb(201, 42, 29);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Node-Link Graph Layout</td>
-                        <td>
-                            <div style="background-color:rgb(94, 204, 250);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Navigation</td>
-
-
-                    </tr>
-                    <tr>
-                        <td style="height:55px;width:50px;">
-                            <div style="background-color:rgb(240, 149, 54);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Data Classification</td>
-                        <td>
-                            <div style="background-color:rgb(204, 98, 204);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Geographic Map Layout</td>
-                        <td>
-                            <div style="background-color:rgb(241, 152, 143);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Perception & Color</td>
-                        <td>
-                            <div style="background-color:rgb(86, 116, 232);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Reconfigure</td>
-
-
-                    </tr>
-                    <tr>
-                        <td style="height:55px;width:50px;">
-                            <div style="background-color:rgb(224, 208, 108);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Dimension Reduction</td>
-                        <td>
-                            <div style="background-color:rgb(234, 55, 38);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Grid & Rectangle Layout</td>
-                        <td>
-                            <div style="background-color:rgb(238, 125, 191);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Rendering</td>
-
-
-                        <td>
-                            <div style="background-color:rgb(40, 3, 245);height:40px;width:40px;float:left;">
-                            </div>
-                        </td>
-                        <td>Filter</td>
-                    </tr>
-                </table>
-
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
 </body>
-<style type="text/css">
-.con1{
-  float:left;
-        /* border:1px solid black; */
-        /* margin-left:10px; */
-       
-}
-.con2{
-  float:left;
-  position:relative;
-        background-color:#fff;
-        /* border:1px solid #999; */
-        /* border:1px solid rgba(0,0,0,0.2); */
-        /* border-radius:6px;outline:0; */
-        /* -webkit-box-shadow:0 3px 9px rgba(0,0,0,0.5); */
-        /* box-shadow:0 3px 9px rgba(0,0,0,0.5); */
-        background-clip:padding-box
-}
-.tb1{
-  margin: 0 auto;
-}
-#scatter_top{
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-}
-</style>
-<script src="js/s1.js"></script>
-<script src="js/s2.js"></script>
-<script src="js/s3.js"></script>
-<script src="js/s4.js"></script>
-
 </html>

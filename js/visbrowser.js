@@ -208,6 +208,14 @@ function displayEntryDetails(id) {
 	if (entry.authors)
 		$("#entryDetailsAuthors").html("by " + entry.authors);
 
+	if (entry.special_tags && entry.special_tags.length) {
+		var tags = $("<div class=\"entry-details-field entry-special-tags\"></div>");
+		$.each(entry.special_tags, function (_i, tag) {
+			tags.append(makeSpecialTag(tag));
+		});
+		$("#entryDetailsAuthors").after(tags);
+	}
+
 	if (entry.reference)
 		$("#entryDetailsReference").html(entry.reference);
 
@@ -219,6 +227,8 @@ function displayEntryDetails(id) {
 
 	$.each(entry.categories, function (i, d) {
 		var item = categoriesMap[d];
+		if (!item)
+			return;
 
 		var element = $("<span class=\"category-entry category-entry-span\""
 			+ "data-tooltip=\"tooltip\"></span>");
@@ -231,7 +241,57 @@ function displayEntryDetails(id) {
 		$("#entryDetailsCategories").append(" ");
 	});
 
+	appendEntryDetailsExtra(entry);
+
 	$("#entryDetailsModal").modal("show");
+}
+
+function makeSpecialTag(tag) {
+	var className = String(tag).toLowerCase() == "rag" ? " special-tag-rag" : "";
+	return $("<span class=\"special-tag" + className + "\"></span>").text(tag);
+}
+
+function formatEntryValue(value) {
+	if ($.isArray(value))
+		return value.join(", ");
+	return value || "";
+}
+
+function appendDetailRow(container, label, value) {
+	value = formatEntryValue(value);
+	if (!value)
+		return;
+
+	var row = $("<div class=\"detail-row\"></div>");
+	row.append($("<span class=\"detail-label\"></span>").text(label + ": "));
+	row.append($("<span></span>").text(value));
+	container.append(row);
+}
+
+function appendEntryDetailsExtra(entry) {
+	var container = $("#entryDetailsExtra");
+	container.empty();
+
+	appendDetailRow(container, "Venue", entry.venue);
+	appendDetailRow(container, "Rank", entry.rank);
+	appendDetailRow(container, "Citations", entry.citations);
+	appendDetailRow(container, "Keywords", entry.keywords || entry.Keywords);
+	appendDetailRow(container, "Abstract", entry.abstract);
+	appendDetailRow(container, "Modality", entry.modality);
+	appendDetailRow(container, "Dataset", entry.dataset);
+	appendDetailRow(container, "Application Domain", entry.domain);
+	appendDetailRow(container, "SALON Reference Model", entry.salon);
+	appendDetailRow(container, "Downstream Task", entry.task);
+	appendDetailRow(container, "Model", entry.model);
+	appendDetailRow(container, "Visual Anchor", entry.anchor_summary);
+	appendDetailRow(container, "Improved Model/Module", entry.improved_model);
+	appendDetailRow(container, "Fine-tuning", entry.fine_tuning);
+	appendDetailRow(container, "Visual Encoding", entry.vis_encoding);
+	appendDetailRow(container, "Specific View", entry.specific_view);
+	appendDetailRow(container, "Interaction", entry.interaction);
+	appendDetailRow(container, "Interaction Detail", entry.interaction_detail);
+	appendDetailRow(container, "Evaluation", entry.evaluation);
+	appendDetailRow(container, "Special Tags", entry.special_tags);
 }
 
 
@@ -256,7 +316,7 @@ function loadCategories() {
 
 		incompleteCategories = [];
 
-		stats = { description: "MPM Survey", children: [] };
+		stats = { description: "Vis4VL Survey", children: [] };
 		statsMap = {};
 
 		var container = $("#categoriesList");
@@ -421,8 +481,6 @@ function loadContent() {
 		renderTimeChart();
 
 		configureTimeFilter();
-
-		$("#totalTechniquesCount").text(Object.keys(entriesMap).length);
 
 		updateDisplayedEntries();
 
@@ -752,8 +810,8 @@ function renderTimeChart() {
 function getTimeChartEntryDescription(entry) {
 	if (!entry.gap) {
 		return entry.year + ": "
-			+ entry.current + " techniques displayed, "
-			+ entry.total + " techniques in total";
+			+ entry.current + " papers displayed, "
+			+ entry.total + " papers in total";
 	} else {
 		return null;
 	}
@@ -845,6 +903,10 @@ function updateDisplayedEntries() {
 
 			element.append(image);
 
+			if (d.special_tags && d.special_tags.length) {
+				element.append(makeSpecialTag(d.special_tags[0]));
+			}
+
 			container.append(element);
 		});
 	}
@@ -900,7 +962,10 @@ function isRelevantToSearch(entry) {
 		return true;
 
 	// Note: "allAuthors" should be included in order to support alternative name spellings
-	var keys = ["id", "title", "year", "authors", "reference", "url", "categories", "keywords", "venue"];
+	var keys = ["id", "title", "year", "authors", "reference", "url", "categories", "keywords", "Keywords", "venue",
+		"abstract", "rank", "citations", "modality", "dataset", "domain", "salon", "task", "model",
+		"anchor_summary", "improved_model", "fine_tuning", "vis_encoding", "specific_view",
+		"interaction", "interaction_detail", "evaluation", "special_tags"];
 	for (var i = 0; i < keys.length; i++) {
 		if (String(entry[keys[i]]).toLowerCase().indexOf(query) != -1) {
 			return true;
@@ -994,7 +1059,7 @@ function populateSummaryTable() {
 	// Create the header row
 	var tableHead = $("<thead></thead>");
 	var headerRow = $("<tr></tr>");
-	headerRow.append("<th>Technique</th>");
+	headerRow.append("<th>Paper</th>");
 
 	$.each(categoriesList, function (i, d) {
 		var item = categoriesMap[d];
@@ -1024,15 +1089,21 @@ function populateSummaryTable() {
 	$.each(entriesList, function (i, d) {
 		var row = $("<tr></tr>");
 
-		// Add the technique title
-		row.append("<td class=\"technique-cell\">"
-			+ "<span class=\"summary-entry-link-wrapper\">"
-			+ "<a href=\"#\" data-id=\"" + d.id + "\" class=\"summary-entry-link\" "
+		// Add the paper title
+		var paperCell = $("<td class=\"paper-cell\"></td>");
+		var wrapper = $("<span class=\"summary-entry-link-wrapper\"></span>");
+		wrapper.append("<a href=\"#\" data-id=\"" + d.id + "\" class=\"summary-entry-link\" "
 			+ "title=\"" + d.title + " by " + d.authors + " (" + d.year + ")" + "\""
 			+ ">" + d.title + " (" + d.year + ")"
-			+ "</a>" + "</span>" + "</td>");
+			+ "</a>");
+		if (d.special_tags && d.special_tags.length) {
+			wrapper.append(" ");
+			wrapper.append(makeSpecialTag(d.special_tags[0]));
+		}
+		paperCell.append(wrapper);
+		row.append(paperCell);
 
-		// Prepare the set of technique's categories for further lookup
+		// Prepare the set of paper's categories for further lookup
 		var hasCategory = {};
 		for (var j = 0; j < d.categories.length; j++) {
 			hasCategory[d.categories[j]] = true;
