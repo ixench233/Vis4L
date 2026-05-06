@@ -66,6 +66,9 @@ body.modal-open {
 .sidebar-container {
 	padding-left: 15px;
 	margin-top: 5px;
+	box-sizing: border-box;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 .content-wrapper {
@@ -126,6 +129,7 @@ body.modal-open {
 #categoriesList {
 	/*max-height: 500px;*/
 	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 #entriesContainer {
@@ -151,8 +155,13 @@ body.modal-open {
 	padding-bottom: 10px;
 }
 
+#filtersPanel {
+	overflow-x: hidden;
+}
+
 .category-entries-container {
 	display: inline-block;
+	max-width: 100%;
 }
 
 .panel-label {
@@ -179,6 +188,8 @@ body.modal-open {
 
 .category-entry {
 	margin-bottom: 2px;
+	max-width: 100%;
+	white-space: normal;
 }
 
 button.category-entry.active, button.category-entry:active, .noUi-connect {
@@ -194,10 +205,14 @@ button.category-entry.active, button.category-entry:active, .noUi-connect {
 	display: inline-block;
 	font-size: 14px;
 	height: 19px;
-	width: 16px;
 	position: relative;
 	top: 1px;
 	line-height: 1;
+}
+
+.category-entry > .category-other-label {
+	width: auto;
+	min-width: 36px;
 }
 
 .category-entry > .content-entry-icon {
@@ -506,6 +521,45 @@ hr {
 
 #summaryTableContainer {
 	overflow-x: auto;
+}
+
+.con1 {
+	width: 100%;
+	aspect-ratio: 1;
+	box-sizing: border-box;
+}
+
+.con2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	position: relative;
+	background-color: #fff;
+	background-clip: padding-box;
+	width: 100%;
+}
+
+.tb1 {
+	margin: 0 auto;
+	grid-column: 1 / -1;
+}
+
+.tb1 td {
+	padding: 4px 8px;
+	vertical-align: middle;
+}
+
+.scatter-legend-swatch {
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+
+#scatter_top {
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	overflow: auto;
 }
 
 #timeChart {

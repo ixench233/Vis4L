@@ -3,3 +3,11 @@
 */.DS_Store
 .vscode/*
 *.log
+
+.vercel
+.claude/
+__pycache__/
+*.pyc
+*.xlsx
+~$*.xlsx
+data/paper_*_cache.json

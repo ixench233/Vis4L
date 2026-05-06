@@ -42,6 +42,7 @@
     <script type="text/javascript" src="js/echarts.min.js"></script>
     <!-- Custom JS code -->
     <script src="js/visbrowser.js"></script>
+    <script src="js/scatter.js?v=tsne-20260427b"></script>
     <script src="js/d3.min.js"></script>
 </head>
 
@@ -77,6 +78,9 @@
                     <ul class="nav navbar-nav">
                         <li>
                             <a href="#" data-toggle="modal" data-target="#summaryTableModal">Summary</a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#scatterModal">Scatter</a>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other surveys <b class="caret"></b></a>
@@ -237,6 +241,46 @@
                         <div id="entryDetailsExtra" class="entry-details-field entry-details-extra"></div>
                     </div>
                 </div>
+            </div>
+            <div class="modal-footer" hidden="true"></div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<!-- Scatter modal -->
+<div
+        id="scatterModal"
+        class="modal fade"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="scatterTitle"
+        aria-hidden="true"
+        data-backdrop="static"
+>
+    <div class="modal-dialog modal-max">
+        <div class="modal-content" id="scatter_top">
+            <div class="modal-header" hidden="true"></div>
+            <div class="modal-body">
+                <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-hidden="true"
+                >
+                    &times;
+                </button>
+                <h2 id="scatterTitle">scatter</h2>
+            </div>
+            <div class="con2">
+                <div id="contain" style="width: 100%;" class="con1"></div>
+                <div id="contain2" style="width: 100%;" class="con1"></div>
+                <div id="con3" style="width: 100%;" class="con1"></div>
+                <div id="contain4" style="width: 100%;" class="con1"></div>
+
+                <table id="scatterLegendTable" class="tb1"></table>
             </div>
             <div class="modal-footer" hidden="true"></div>
         </div>

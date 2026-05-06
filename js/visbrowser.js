@@ -271,27 +271,6 @@ function appendDetailRow(container, label, value) {
 function appendEntryDetailsExtra(entry) {
 	var container = $("#entryDetailsExtra");
 	container.empty();
-
-	appendDetailRow(container, "Venue", entry.venue);
-	appendDetailRow(container, "Rank", entry.rank);
-	appendDetailRow(container, "Citations", entry.citations);
-	appendDetailRow(container, "Keywords", entry.keywords || entry.Keywords);
-	appendDetailRow(container, "Abstract", entry.abstract);
-	appendDetailRow(container, "Modality", entry.modality);
-	appendDetailRow(container, "Dataset", entry.dataset);
-	appendDetailRow(container, "Application Domain", entry.domain);
-	appendDetailRow(container, "SALON Reference Model", entry.salon);
-	appendDetailRow(container, "Downstream Task", entry.task);
-	appendDetailRow(container, "Model", entry.model);
-	appendDetailRow(container, "Visual Anchor", entry.anchor_summary);
-	appendDetailRow(container, "Improved Model/Module", entry.improved_model);
-	appendDetailRow(container, "Fine-tuning", entry.fine_tuning);
-	appendDetailRow(container, "Visual Encoding", entry.vis_encoding);
-	appendDetailRow(container, "Specific View", entry.specific_view);
-	appendDetailRow(container, "Interaction", entry.interaction);
-	appendDetailRow(container, "Interaction Detail", entry.interaction_detail);
-	appendDetailRow(container, "Evaluation", entry.evaluation);
-	appendDetailRow(container, "Special Tags", entry.special_tags);
 }
 
 
@@ -340,6 +319,9 @@ function appendCategoryFilter(item, parent, currentContainer, currentStats) {
 	// Set parent category, if provided
 	if (parent)
 		item.parentCategory = parent;
+
+	if (item.type == "category-entry" && item.description == "Other")
+		item.content = "&hellip;";
 
 	// First of all, include item into the maps
 	categoriesMap[item.title] = item;
@@ -399,8 +381,14 @@ function appendCategoryFilter(item, parent, currentContainer, currentStats) {
 		var element = $("<button type=\"button\" class=\"btn btn-default category-entry active\""
 			+ "data-tooltip=\"tooltip\"></button>");
 		element.attr("data-entry", item.title);
+		if (item.description == "Other" && parent) {
+			element.addClass("category-other");
+			element.attr("data-category", parent);
+		}
 		element.prop("title", item.description);
-		element.append(item.content);
+		element.append(item.description == "Other"
+			? "<span class=\"content-entry-label category-other-label\">" + item.content + "</span>"
+			: item.content);
 
 		currentContainer.append(element);
 		currentContainer.append(" ");
@@ -555,7 +543,7 @@ function processStatistics() {
 // that do not cover the whole entries set
 function appendAuxiliaryFilters() {
 	var totalCount = Object.keys(entriesMap).length;
-	var content = "<span class=\"content-entry-label\">...</span>";
+	var content = "<span class=\"content-entry-label category-other-label\">&hellip;</span>";
 
 	$("#categoriesList .category-item").each(function (i, d) {
 		var element = $(d);
@@ -566,11 +554,19 @@ function appendAuxiliaryFilters() {
 		if (!statsMap[title] || !statsMap[title].hasDirectEntries)
 			return;
 
+		if (element.find(".category-entries-container > .category-entry").filter(function () {
+			var entryTitle = $(this).data("entry");
+			return entryTitle && String(entryTitle).match(/(^|-)other$/);
+		}).length) {
+			incompleteCategories.push(title);
+			return;
+		}
+
 		// Check if category covers the whole set
 		if (Object.keys(statsMap[title].ids).length < totalCount) {
 			incompleteCategories.push(title);
 
-			var button = $("<button type=\"button\" class=\"btn btn-default category-entry category-other active\""
+			var button = $("<button type=\"button\" class=\"btn btn-default category-entry category-other category-other-aux active\""
 				+ "data-tooltip=\"tooltip\"></button>");
 			button.attr("data-category", title);
 			button.prop("title", "Other");
@@ -827,7 +823,7 @@ function updateDisplayedEntries() {
 
 	// Get the set of active filters
 	var activeFilters = {};
-	$(".category-entry.active:not(.category-other)").each(function () {
+	$(".category-entry.active:not(.category-other-aux)").each(function () {
 		var category = $(this).data("entry");
 		var parent = categoriesMap[category].parentCategory;
 		if (!activeFilters[parent])

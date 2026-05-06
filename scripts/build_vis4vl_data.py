@@ -41,6 +41,7 @@ COL = {
     "interaction": 23,
     "interaction_detail": 24,
     "evaluation": 25,
+    "url": 26,
 }
 
 
@@ -55,6 +56,184 @@ CATEGORY_GROUPS = [
     ("domain", "Application Domain", "Application Domain"),
     ("special_tags", "Special Tags", "Special Tags"),
 ]
+
+CATEGORY_TRANSLATIONS = {
+    "自然图像-文本": "Natural Image-Language",
+    "科学图像-文本": "Scientific Image-Language",
+    "图表图像-文本": "Chart Image-Language",
+    "可视分析系统-文本": "Visual System-Language",
+    "自然视频-文本": "Natural Video-Language",
+    "数据视频-文本": "Data Video-Language",
+    "自然视频-文本-语音": "Natural Video-Language-Audio",
+    "数据视频-文本-语音": "Data Video-Language-Audio",
+    "自然图像-文本-语音": "Natural Image-Language-Audio",
+    "图表图像-文本-语音": "Chart Image-Language-Audio",
+    "自然视频-文本-可视化": "Natural Video-Language-Visualization",
+    "文档-文本-可视化": "Document-Language-Visualization",
+    "自然视频-可视化": "Natural Video-Visualization",
+    "自然图像": "Natural Image",
+    "语音-文本": "Speech-Language",
+    "文本": "Language",
+    "通用领域": "General",
+    "医学生物领域": "Medical/Bio",
+    "交通领域": "Traffic",
+    "地理环境领域": "Geo/Environment",
+    "社交媒体领域": "Social Media",
+    "教育学习领域": "Education/Learning",
+    "体育运动领域": "Sports/Exercise",
+    "历史文物领域": "Humanities/Cultural Heritage",
+    "艺术创作领域": "Art Design/Creative",
+    "电子商务领域": "E-commerce/Retail",
+    "视觉语言-表示": "VL-Representation",
+    "视觉语言-转译": "VL-Translation",
+    "视觉语言-对齐": "VL-Alignment",
+    "视觉语言-融合": "VL-Fusion",
+    "视觉语言-协同学习": "VL-Co-learning",
+    "基础模型可视解释": "Foundation Model Visual Interpretation",
+    "跨模态生成任务-图生文": "V-L Generation",
+    "跨模态生成任务-文生图": "L-V Generation",
+    "跨模态理解与推理任务-注释": "Annotation",
+    "跨模态关联与匹配任务-检索": "Retrieval",
+    "跨模态关联与匹配任务-匹配": "Matching",
+    "跨模态关联与匹配任务-定位": "Grounding",
+    "跨模态理解与推理任务-问答": "QA",
+    "跨模态理解与推理任务-对话": "Grounded Dialogue",
+    "多模态协同分析任务": "Multimodal Collaborative Analysis",
+    "跨模态理解与推理任务-分类": "Classification",
+    "CNN架构": "CNN",
+    "RNN架构": "RNN",
+    "LSTM架构": "LSTM",
+    "Transformer架构": "Transformer",
+    "BLIP系列": "BLIP",
+    "GPT系列": "GPT Series",
+    "Gemini系列": "Gemini Series",
+    "Qwen系列": "Qwen Series",
+    "Claude系列": "Claude Series",
+    "BERT系列": "BERT Series",
+    "DeepSeek系列": "DeepSeek Series",
+    "Gemma系列": "Gemma Series",
+    "Baichuan系列": "Baichuan Series",
+    "领域模型": "Domain-specific Model",
+    "符号编码": "Symbolic Encoding",
+    "离散型编码": "Discrete Encoding",
+    "分布型编码": "Distribution Encoding",
+    "时序型编码": "Temporal Encoding",
+    "结构型编码": "Structural Encoding",
+    "层级型编码": "Hierarchical Encoding",
+    "关联操作": "Linking",
+    "筛选操作": "Filtering",
+    "视点操作": "Viewpoint Control",
+    "What-If操作": "What-If",
+    "记录操作": "Recording/History",
+    "定性案例分析": "Qualitative Case Study",
+    "人类用户体验": "User Experience",
+    "定量指标评估": "Quantitative Metrics",
+    "人类用户表现": "User Performance",
+    "其他": "Other",
+}
+
+CATEGORY_ORDER = {
+    "salon": [
+        "VL-Representation",
+        "VL-Translation",
+        "VL-Alignment",
+        "VL-Fusion",
+        "VL-Co-learning",
+    ],
+    "task": [
+        "Foundation Model Visual Interpretation",
+        "V-L Generation",
+        "L-V Generation",
+        "Annotation",
+        "Retrieval",
+        "Matching",
+        "Grounding",
+        "QA",
+        "Grounded Dialogue",
+        "Multimodal Collaborative Analysis",
+        "Classification",
+    ],
+    "modality": [
+        "Natural Image-Language",
+        "Scientific Image-Language",
+        "Chart Image-Language",
+        "Visual System-Language",
+        "Natural Video-Language",
+        "Data Video-Language",
+        "Natural Video-Language-Audio",
+        "Data Video-Language-Audio",
+        "Natural Image-Language-Audio",
+        "Chart Image-Language-Audio",
+        "Natural Video-Language-Visualization",
+        "Document-Language-Visualization",
+        "Natural Video-Visualization",
+        "Natural Image",
+        "Speech-Language",
+        "Language",
+        "Other",
+    ],
+    "domain": [
+        "General",
+        "Medical/Bio",
+        "Traffic",
+        "Geo/Environment",
+        "Social Media",
+        "Education/Learning",
+        "Sports/Exercise",
+        "Humanities/Cultural Heritage",
+        "Art Design/Creative",
+        "E-commerce/Retail",
+        "Other",
+    ],
+    "model": [
+        "CNN",
+        "RNN",
+        "LSTM",
+        "Transformer",
+        "ViT",
+        "SAM",
+        "DINO",
+        "BERT Series",
+        "Claude Series",
+        "Gemma Series",
+        "Baichuan Series",
+        "LaMDA",
+        "GPT Series",
+        "Qwen Series",
+        "Gemini Series",
+        "CLIP",
+        "BLIP",
+        "LLaVA",
+        "DeepSeek Series",
+        "Stable Diffusion",
+        "SDXL",
+        "DALL-E",
+        "Domain-specific Model",
+        "Other",
+    ],
+    "vis_encoding": [
+        "Discrete Encoding",
+        "Temporal Encoding",
+        "Distribution Encoding",
+        "Structural Encoding",
+        "Hierarchical Encoding",
+        "Symbolic Encoding",
+    ],
+    "interaction": [
+        "Linking",
+        "Filtering",
+        "Viewpoint Control",
+        "What-If",
+        "Recording/History",
+    ],
+    "evaluation": [
+        "Qualitative Case Study",
+        "Quantitative Metrics",
+        "User Performance",
+        "User Experience",
+    ],
+    "special_tags": ["Agent", "RAG"],
+}
 
 
 SPLIT_RE = re.compile(r"[,;；，、\n]+")
@@ -83,6 +262,15 @@ def split_values(value):
     return values
 
 
+def translate_category_value(value):
+    value = clean_text(value)
+    return CATEGORY_TRANSLATIONS.get(value, value)
+
+
+def translated_values(value):
+    return [translate_category_value(item) for item in split_values(value)]
+
+
 def slugify(value, prefix):
     text = clean_text(value).lower()
     text = re.sub(r"\s+", "-", text)
@@ -91,6 +279,12 @@ def slugify(value, prefix):
     if not text:
         text = "unknown"
     return f"{prefix}-{text}"
+
+
+def normalize_title_for_dedupe(value):
+    text = clean_text(value).lower()
+    text = text.replace("：", ":")
+    return re.sub(r"[^0-9a-z]+", "", text)
 
 
 def get_bib_field(bibtex, field):
@@ -112,7 +306,10 @@ def bib_key(bibtex):
     return clean_text(match.group(1)) if match else ""
 
 
-def infer_url(bibtex):
+def infer_url(bibtex, explicit_url=""):
+    explicit_url = clean_text(explicit_url)
+    if explicit_url:
+        return explicit_url
     url = get_bib_field(bibtex, "url")
     if url:
         return url
@@ -219,7 +416,12 @@ def build_categories(rows):
     categories = []
     for key, title, description in CATEGORY_GROUPS:
         entries = []
-        for slug, _count in sorted(values_by_group[key].items(), key=lambda item: labels[item[0]].lower()):
+        order = {value: index for index, value in enumerate(CATEGORY_ORDER.get(key, []))}
+        sorted_items = sorted(
+            values_by_group[key].items(),
+            key=lambda item: (order.get(labels[item[0]], len(order)), labels[item[0]].lower()),
+        )
+        for slug, _count in sorted_items:
             label = labels[slug]
             entries.append({
                 "type": "category-entry",
@@ -239,7 +441,7 @@ def build_categories(rows):
 
 
 def main():
-    xlsx_files = sorted(XLSX_DIR.glob("*.xlsx"))
+    xlsx_files = sorted(path for path in XLSX_DIR.glob("*.xlsx") if not path.name.startswith("~$"))
     if not xlsx_files:
         raise FileNotFoundError("No .xlsx file found in vis_data")
 
@@ -252,11 +454,18 @@ def main():
     id_counts = Counter()
     missing_images = []
     marked_counts = Counter()
+    seen_titles = {}
+    skipped_duplicates = []
 
     for row_number in range(3, worksheet.max_row + 1):
         title = clean_text(worksheet.cell(row_number, COL["title"]).value)
         if not title:
             continue
+        normalized_title = normalize_title_for_dedupe(title)
+        if normalized_title in seen_titles:
+            skipped_duplicates.append((row_number, seen_titles[normalized_title], title))
+            continue
+        seen_titles[normalized_title] = row_number
 
         bibtex = clean_text(worksheet.cell(row_number, COL["bibtex"]).value)
         key = bib_key(bibtex)
@@ -273,7 +482,7 @@ def main():
         row = {
             "id": entry_id,
             "title": title,
-            "url": infer_url(bibtex),
+            "url": clean_text(worksheet.cell(row_number, COL["url"]).value),
             "venue": clean_text(worksheet.cell(row_number, COL["venue"]).value),
             "year": int(worksheet.cell(row_number, COL["year"]).value),
             "authors": get_bib_field(bibtex, "author"),
@@ -283,20 +492,20 @@ def main():
             "rank": clean_text(worksheet.cell(row_number, COL["rank"]).value),
             "citations": clean_text(worksheet.cell(row_number, COL["citations"]).value),
             "modal_count": clean_text(worksheet.cell(row_number, COL["modal_count"]).value),
-            "modality": split_values(worksheet.cell(row_number, COL["modality"]).value),
+            "modality": translated_values(worksheet.cell(row_number, COL["modality"]).value),
             "dataset": clean_text(worksheet.cell(row_number, COL["dataset"]).value),
-            "domain": split_values(worksheet.cell(row_number, COL["domain"]).value),
-            "salon": split_values(worksheet.cell(row_number, COL["salon"]).value),
-            "task": split_values(worksheet.cell(row_number, COL["task"]).value),
-            "model": split_values(worksheet.cell(row_number, COL["model"]).value),
+            "domain": translated_values(worksheet.cell(row_number, COL["domain"]).value),
+            "salon": translated_values(worksheet.cell(row_number, COL["salon"]).value),
+            "task": translated_values(worksheet.cell(row_number, COL["task"]).value),
+            "model": translated_values(worksheet.cell(row_number, COL["model"]).value),
             "anchor_summary": clean_text(worksheet.cell(row_number, COL["anchor_summary"]).value),
             "improved_model": clean_text(worksheet.cell(row_number, COL["improved_model"]).value),
             "fine_tuning": clean_text(worksheet.cell(row_number, COL["fine_tuning"]).value),
-            "vis_encoding": split_values(worksheet.cell(row_number, COL["vis_encoding"]).value),
+            "vis_encoding": translated_values(worksheet.cell(row_number, COL["vis_encoding"]).value),
             "specific_view": clean_text(worksheet.cell(row_number, COL["specific_view"]).value),
-            "interaction": split_values(worksheet.cell(row_number, COL["interaction"]).value),
+            "interaction": translated_values(worksheet.cell(row_number, COL["interaction"]).value),
             "interaction_detail": clean_text(worksheet.cell(row_number, COL["interaction_detail"]).value),
-            "evaluation": split_values(worksheet.cell(row_number, COL["evaluation"]).value),
+            "evaluation": translated_values(worksheet.cell(row_number, COL["evaluation"]).value),
             "special_tags": special_tags,
             "is_marked": marked,
         }
@@ -328,6 +537,7 @@ def main():
     print(f"Generated {sum(len(group['entries']) for group in categories)} category entries in {len(categories)} groups")
     print(f"Special tags: {dict(marked_counts)}")
     print(f"Missing images: {missing_images}")
+    print(f"Skipped duplicate titles: {skipped_duplicates}")
 
 
 if __name__ == "__main__":

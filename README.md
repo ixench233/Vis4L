@@ -20,6 +20,15 @@ The script generates:
 - `thumbs100/*.png`
 - `thumbs200/*.png`
 
+Run the scatter converter after `data/content.json` changes:
+
+```powershell
+python scripts\build_scatter_data.py
+```
+
+The script generates `data/scatter.json` with TF-IDF + t-SNE coordinates for
+the scatter modal.
+
 The converter imports all reviewed rows in the Excel sheet, extracts paper thumbnails from embedded images, derives paper IDs from BibTeX keys, and marks colored-title papers as `Agent` or `RAG` based on the paper title.
 
 ## Local Preview

@@ -7,33 +7,33 @@
     "entries": [
       {
         "type": "category-entry",
-        "title": "salon-视觉语言-协同学习",
-        "description": "视觉语言-协同学习",
-        "content": "视觉语言-协同学习"
+        "title": "salon-vl-representation",
+        "description": "VL-Representation",
+        "content": "VL-Representation"
       },
       {
         "type": "category-entry",
-        "title": "salon-视觉语言-对齐",
-        "description": "视觉语言-对齐",
-        "content": "视觉语言-对齐"
+        "title": "salon-vl-translation",
+        "description": "VL-Translation",
+        "content": "VL-Translation"
       },
       {
         "type": "category-entry",
-        "title": "salon-视觉语言-融合",
-        "description": "视觉语言-融合",
-        "content": "视觉语言-融合"
+        "title": "salon-vl-alignment",
+        "description": "VL-Alignment",
+        "content": "VL-Alignment"
       },
       {
         "type": "category-entry",
-        "title": "salon-视觉语言-表示",
-        "description": "视觉语言-表示",
-        "content": "视觉语言-表示"
+        "title": "salon-vl-fusion",
+        "description": "VL-Fusion",
+        "content": "VL-Fusion"
       },
       {
         "type": "category-entry",
-        "title": "salon-视觉语言-转译",
-        "description": "视觉语言-转译",
-        "content": "视觉语言-转译"
+        "title": "salon-vl-co-learning",
+        "description": "VL-Co-learning",
+        "content": "VL-Co-learning"
       }
     ]
   },
@@ -45,69 +45,69 @@
     "entries": [
       {
         "type": "category-entry",
-        "title": "task-基础模型可视解释",
-        "description": "基础模型可视解释",
-        "content": "基础模型可视解释"
+        "title": "task-foundation-model-visual-interpretation",
+        "description": "Foundation Model Visual Interpretation",
+        "content": "Foundation Model Visual Interpretation"
       },
       {
         "type": "category-entry",
-        "title": "task-多模态协同分析任务",
-        "description": "多模态协同分析任务",
-        "content": "多模态协同分析任务"
+        "title": "task-v-l-generation",
+        "description": "V-L Generation",
+        "content": "V-L Generation"
       },
       {
         "type": "category-entry",
-        "title": "task-跨模态关联与匹配任务-匹配",
-        "description": "跨模态关联与匹配任务-匹配",
-        "content": "跨模态关联与匹配任务-匹配"
+        "title": "task-l-v-generation",
+        "description": "L-V Generation",
+        "content": "L-V Generation"
       },
       {
         "type": "category-entry",
-        "title": "task-跨模态关联与匹配任务-定位",
-        "description": "跨模态关联与匹配任务-定位",
-        "content": "跨模态关联与匹配任务-定位"
+        "title": "task-annotation",
+        "description": "Annotation",
+        "content": "Annotation"
       },
       {
         "type": "category-entry",
-        "title": "task-跨模态关联与匹配任务-检索",
-        "description": "跨模态关联与匹配任务-检索",
-        "content": "跨模态关联与匹配任务-检索"
+        "title": "task-retrieval",
+        "description": "Retrieval",
+        "content": "Retrieval"
       },
       {
         "type": "category-entry",
-        "title": "task-跨模态理解与推理任务-分类",
-        "description": "跨模态理解与推理任务-分类",
-        "content": "跨模态理解与推理任务-分类"
+        "title": "task-matching",
+        "description": "Matching",
+        "content": "Matching"
       },
       {
         "type": "category-entry",
-        "title": "task-跨模态理解与推理任务-对话",
-        "description": "跨模态理解与推理任务-对话",
-        "content": "跨模态理解与推理任务-对话"
+        "title": "task-grounding",
+        "description": "Grounding",
+        "content": "Grounding"
       },
       {
         "type": "category-entry",
-        "title": "task-跨模态理解与推理任务-注释",
-        "description": "跨模态理解与推理任务-注释",
-        "content": "跨模态理解与推理任务-注释"
+        "title": "task-qa",
+        "description": "QA",
+        "content": "QA"
       },
       {
         "type": "category-entry",
-        "title": "task-跨模态理解与推理任务-问答",
-        "description": "跨模态理解与推理任务-问答",
-        "content": "跨模态理解与推理任务-问答"
+        "title": "task-grounded-dialogue",
+        "description": "Grounded Dialogue",
+        "content": "Grounded Dialogue"
       },
       {
         "type": "category-entry",
-        "title": "task-跨模态生成任务-图生文",
-        "description": "跨模态生成任务-图生文",
-        "content": "跨模态生成任务-图生文"
+        "title": "task-multimodal-collaborative-analysis",
+        "description": "Multimodal Collaborative Analysis",
+        "content": "Multimodal Collaborative Analysis"
       },
       {
         "type": "category-entry",
-        "title": "task-跨模态生成任务-文生图",
-        "description": "跨模态生成任务-文生图",
-        "content": "跨模态生成任务-文生图"
+        "title": "task-classification",
+        "description": "Classification",
+        "content": "Classification"
       }
     ]
   },
@@ -119,105 +119,105 @@
     "entries": [
       {
         "type": "category-entry",
-        "title": "modality-其他",
-        "description": "其他",
-        "content": "其他"
+        "title": "modality-natural-image-language",
+        "description": "Natural Image-Language",
+        "content": "Natural Image-Language"
       },
       {
         "type": "category-entry",
-        "title": "modality-可视分析系统-文本",
-        "description": "可视分析系统-文本",
-        "content": "可视分析系统-文本"
+        "title": "modality-scientific-image-language",
+        "description": "Scientific Image-Language",
+        "content": "Scientific Image-Language"
       },
       {
         "type": "category-entry",
-        "title": "modality-图表图像-文本",
-        "description": "图表图像-文本",
-        "content": "图表图像-文本"
+        "title": "modality-chart-image-language",
+        "description": "Chart Image-Language",
+        "content": "Chart Image-Language"
       },
       {
         "type": "category-entry",
-        "title": "modality-图表图像-文本-语音",
-        "description": "图表图像-文本-语音",
-        "content": "图表图像-文本-语音"
+        "title": "modality-visual-system-language",
+        "description": "Visual System-Language",
+        "content": "Visual System-Language"
       },
       {
         "type": "category-entry",
-        "title": "modality-数据视频-文本",
-        "description": "数据视频-文本",
-        "content": "数据视频-文本"
+        "title": "modality-natural-video-language",
+        "description": "Natural Video-Language",
+        "content": "Natural Video-Language"
       },
       {
         "type": "category-entry",
-        "title": "modality-数据视频-文本-语音",
-        "description": "数据视频-文本-语音",
-        "content": "数据视频-文本-语音"
+        "title": "modality-data-video-language",
+        "description": "Data Video-Language",
+        "content": "Data Video-Language"
       },
       {
         "type": "category-entry",
-        "title": "modality-文本",
-        "description": "文本",
-        "content": "文本"
+        "title": "modality-natural-video-language-audio",
+        "description": "Natural Video-Language-Audio",
+        "content": "Natural Video-Language-Audio"
       },
       {
         "type": "category-entry",
-        "title": "modality-文档-文本-可视化",
-        "description": "文档-文本-可视化",
-        "content": "文档-文本-可视化"
+        "title": "modality-data-video-language-audio",
+        "description": "Data Video-Language-Audio",
+        "content": "Data Video-Language-Audio"
       },
       {
         "type": "category-entry",
-        "title": "modality-科学图像-文本",
-        "description": "科学图像-文本",
-        "content": "科学图像-文本"
+        "title": "modality-natural-image-language-audio",
+        "description": "Natural Image-Language-Audio",
+        "content": "Natural Image-Language-Audio"
       },
       {
         "type": "category-entry",
-        "title": "modality-自然图像",
-        "description": "自然图像",
-        "content": "自然图像"
+        "title": "modality-chart-image-language-audio",
+        "description": "Chart Image-Language-Audio",
+        "content": "Chart Image-Language-Audio"
       },
       {
         "type": "category-entry",
-        "title": "modality-自然图像-文本",
-        "description": "自然图像-文本",
-        "content": "自然图像-文本"
+        "title": "modality-natural-video-language-visualization",
+        "description": "Natural Video-Language-Visualization",
+        "content": "Natural Video-Language-Visualization"
       },
       {
         "type": "category-entry",
-        "title": "modality-自然图像-文本-语音",
-        "description": "自然图像-文本-语音",
-        "content": "自然图像-文本-语音"
+        "title": "modality-document-language-visualization",
+        "description": "Document-Language-Visualization",
+        "content": "Document-Language-Visualization"
       },
       {
         "type": "category-entry",
-        "title": "modality-自然视频-可视化",
-        "description": "自然视频-可视化",
-        "content": "自然视频-可视化"
+        "title": "modality-natural-video-visualization",
+        "description": "Natural Video-Visualization",
+        "content": "Natural Video-Visualization"
       },
       {
         "type": "category-entry",
-        "title": "modality-自然视频-文本",
-        "description": "自然视频-文本",
-        "content": "自然视频-文本"
+        "title": "modality-natural-image",
+        "description": "Natural Image",
+        "content": "Natural Image"
       },
       {
         "type": "category-entry",
-        "title": "modality-自然视频-文本-可视化",
-        "description": "自然视频-文本-可视化",
-        "content": "自然视频-文本-可视化"
+        "title": "modality-speech-language",
+        "description": "Speech-Language",
+        "content": "Speech-Language"
       },
       {
         "type": "category-entry",
-        "title": "modality-自然视频-文本-语音",
-        "description": "自然视频-文本-语音",
-        "content": "自然视频-文本-语音"
+        "title": "modality-language",
+        "description": "Language",
+        "content": "Language"
       },
       {
         "type": "category-entry",
-        "title": "modality-语音-文本",
-        "description": "语音-文本",
-        "content": "语音-文本"
+        "title": "modality-other",
+        "description": "Other",
+        "content": "Other"
       }
     ]
   },
@@ -229,129 +229,27 @@
     "entries": [
       {
         "type": "category-entry",
-        "title": "model-baichuan系列",
-        "description": "Baichuan系列",
-        "content": "Baichuan系列"
+        "title": "model-cnn",
+        "description": "CNN",
+        "content": "CNN"
       },
       {
         "type": "category-entry",
-        "title": "model-bert系列",
-        "description": "BERT系列",
-        "content": "BERT系列"
+        "title": "model-rnn",
+        "description": "RNN",
+        "content": "RNN"
       },
       {
         "type": "category-entry",
-        "title": "model-blip系列",
-        "description": "BLIP系列",
-        "content": "BLIP系列"
+        "title": "model-lstm",
+        "description": "LSTM",
+        "content": "LSTM"
       },
       {
         "type": "category-entry",
-        "title": "model-claude系列",
-        "description": "Claude系列",
-        "content": "Claude系列"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-clip",
-        "description": "CLIP",
-        "content": "CLIP"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-cnn架构",
-        "description": "CNN架构",
-        "content": "CNN架构"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-dall-e",
-        "description": "DALL-E",
-        "content": "DALL-E"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-deepseek系列",
-        "description": "DeepSeek系列",
-        "content": "DeepSeek系列"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-dino",
-        "description": "DINO",
-        "content": "DINO"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-gemini系列",
-        "description": "Gemini系列",
-        "content": "Gemini系列"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-gemma系列",
-        "description": "Gemma系列",
-        "content": "Gemma系列"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-gpt系列",
-        "description": "GPT系列",
-        "content": "GPT系列"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-lamda",
-        "description": "LaMDA",
-        "content": "LaMDA"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-llava",
-        "description": "LLaVA",
-        "content": "LLaVA"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-lstm架构",
-        "description": "LSTM架构",
-        "content": "LSTM架构"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-qwen系列",
-        "description": "Qwen系列",
-        "content": "Qwen系列"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-rnn架构",
-        "description": "RNN架构",
-        "content": "RNN架构"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-sam",
-        "description": "SAM",
-        "content": "SAM"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-sdxl",
-        "description": "SDXL",
-        "content": "SDXL"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-stable-diffusion",
-        "description": "Stable Diffusion",
-        "content": "Stable Diffusion"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-transformer架构",
-        "description": "Transformer架构",
-        "content": "Transformer架构"
+        "title": "model-transformer",
+        "description": "Transformer",
+        "content": "Transformer"
       },
       {
         "type": "category-entry",
@@ -361,15 +259,117 @@
       },
       {
         "type": "category-entry",
-        "title": "model-其他",
-        "description": "其他",
-        "content": "其他"
+        "title": "model-sam",
+        "description": "SAM",
+        "content": "SAM"
       },
       {
         "type": "category-entry",
-        "title": "model-领域模型",
-        "description": "领域模型",
-        "content": "领域模型"
+        "title": "model-dino",
+        "description": "DINO",
+        "content": "DINO"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-bert-series",
+        "description": "BERT Series",
+        "content": "BERT Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-claude-series",
+        "description": "Claude Series",
+        "content": "Claude Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-gemma-series",
+        "description": "Gemma Series",
+        "content": "Gemma Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-baichuan-series",
+        "description": "Baichuan Series",
+        "content": "Baichuan Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-lamda",
+        "description": "LaMDA",
+        "content": "LaMDA"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-gpt-series",
+        "description": "GPT Series",
+        "content": "GPT Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-qwen-series",
+        "description": "Qwen Series",
+        "content": "Qwen Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-gemini-series",
+        "description": "Gemini Series",
+        "content": "Gemini Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-clip",
+        "description": "CLIP",
+        "content": "CLIP"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-blip",
+        "description": "BLIP",
+        "content": "BLIP"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-llava",
+        "description": "LLaVA",
+        "content": "LLaVA"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-deepseek-series",
+        "description": "DeepSeek Series",
+        "content": "DeepSeek Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-stable-diffusion",
+        "description": "Stable Diffusion",
+        "content": "Stable Diffusion"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-sdxl",
+        "description": "SDXL",
+        "content": "SDXL"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-dall-e",
+        "description": "DALL-E",
+        "content": "DALL-E"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-domain-specific-model",
+        "description": "Domain-specific Model",
+        "content": "Domain-specific Model"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-other",
+        "description": "Other",
+        "content": "Other"
       }
     ]
   },
@@ -381,39 +381,39 @@
     "entries": [
       {
         "type": "category-entry",
-        "title": "vis_encoding-分布型编码",
-        "description": "分布型编码",
-        "content": "分布型编码"
+        "title": "vis_encoding-discrete-encoding",
+        "description": "Discrete Encoding",
+        "content": "Discrete Encoding"
       },
       {
         "type": "category-entry",
-        "title": "vis_encoding-层级型编码",
-        "description": "层级型编码",
-        "content": "层级型编码"
+        "title": "vis_encoding-temporal-encoding",
+        "description": "Temporal Encoding",
+        "content": "Temporal Encoding"
       },
       {
         "type": "category-entry",
-        "title": "vis_encoding-时序型编码",
-        "description": "时序型编码",
-        "content": "时序型编码"
+        "title": "vis_encoding-distribution-encoding",
+        "description": "Distribution Encoding",
+        "content": "Distribution Encoding"
       },
       {
         "type": "category-entry",
-        "title": "vis_encoding-离散型编码",
-        "description": "离散型编码",
-        "content": "离散型编码"
+        "title": "vis_encoding-structural-encoding",
+        "description": "Structural Encoding",
+        "content": "Structural Encoding"
       },
       {
         "type": "category-entry",
-        "title": "vis_encoding-符号编码",
-        "description": "符号编码",
-        "content": "符号编码"
+        "title": "vis_encoding-hierarchical-encoding",
+        "description": "Hierarchical Encoding",
+        "content": "Hierarchical Encoding"
       },
       {
         "type": "category-entry",
-        "title": "vis_encoding-结构型编码",
-        "description": "结构型编码",
-        "content": "结构型编码"
+        "title": "vis_encoding-symbolic-encoding",
+        "description": "Symbolic Encoding",
+        "content": "Symbolic Encoding"
       }
     ]
   },
@@ -425,33 +425,33 @@
     "entries": [
       {
         "type": "category-entry",
-        "title": "interaction-what-if操作",
-        "description": "What-If操作",
-        "content": "What-If操作"
+        "title": "interaction-linking",
+        "description": "Linking",
+        "content": "Linking"
       },
       {
         "type": "category-entry",
-        "title": "interaction-关联操作",
-        "description": "关联操作",
-        "content": "关联操作"
+        "title": "interaction-filtering",
+        "description": "Filtering",
+        "content": "Filtering"
       },
       {
         "type": "category-entry",
-        "title": "interaction-筛选操作",
-        "description": "筛选操作",
-        "content": "筛选操作"
+        "title": "interaction-viewpoint-control",
+        "description": "Viewpoint Control",
+        "content": "Viewpoint Control"
       },
       {
         "type": "category-entry",
-        "title": "interaction-视点操作",
-        "description": "视点操作",
-        "content": "视点操作"
+        "title": "interaction-what-if",
+        "description": "What-If",
+        "content": "What-If"
       },
       {
         "type": "category-entry",
-        "title": "interaction-记录操作",
-        "description": "记录操作",
-        "content": "记录操作"
+        "title": "interaction-recording-history",
+        "description": "Recording/History",
+        "content": "Recording/History"
       }
     ]
   },
@@ -463,27 +463,27 @@
     "entries": [
       {
         "type": "category-entry",
-        "title": "evaluation-人类用户体验",
-        "description": "人类用户体验",
-        "content": "人类用户体验"
+        "title": "evaluation-qualitative-case-study",
+        "description": "Qualitative Case Study",
+        "content": "Qualitative Case Study"
       },
       {
         "type": "category-entry",
-        "title": "evaluation-人类用户表现",
-        "description": "人类用户表现",
-        "content": "人类用户表现"
+        "title": "evaluation-quantitative-metrics",
+        "description": "Quantitative Metrics",
+        "content": "Quantitative Metrics"
       },
       {
         "type": "category-entry",
-        "title": "evaluation-定性案例分析",
-        "description": "定性案例分析",
-        "content": "定性案例分析"
+        "title": "evaluation-user-performance",
+        "description": "User Performance",
+        "content": "User Performance"
       },
       {
         "type": "category-entry",
-        "title": "evaluation-定量指标评估",
-        "description": "定量指标评估",
-        "content": "定量指标评估"
+        "title": "evaluation-user-experience",
+        "description": "User Experience",
+        "content": "User Experience"
       }
     ]
   },
@@ -495,69 +495,69 @@
     "entries": [
       {
         "type": "category-entry",
-        "title": "domain-交通领域",
-        "description": "交通领域",
-        "content": "交通领域"
+        "title": "domain-general",
+        "description": "General",
+        "content": "General"
       },
       {
         "type": "category-entry",
-        "title": "domain-体育运动领域",
-        "description": "体育运动领域",
-        "content": "体育运动领域"
+        "title": "domain-medical-bio",
+        "description": "Medical/Bio",
+        "content": "Medical/Bio"
       },
       {
         "type": "category-entry",
-        "title": "domain-其他",
-        "description": "其他",
-        "content": "其他"
+        "title": "domain-traffic",
+        "description": "Traffic",
+        "content": "Traffic"
       },
       {
         "type": "category-entry",
-        "title": "domain-医学生物领域",
-        "description": "医学生物领域",
-        "content": "医学生物领域"
+        "title": "domain-geo-environment",
+        "description": "Geo/Environment",
+        "content": "Geo/Environment"
       },
       {
         "type": "category-entry",
-        "title": "domain-历史文物领域",
-        "description": "历史文物领域",
-        "content": "历史文物领域"
+        "title": "domain-social-media",
+        "description": "Social Media",
+        "content": "Social Media"
       },
       {
         "type": "category-entry",
-        "title": "domain-地理环境领域",
-        "description": "地理环境领域",
-        "content": "地理环境领域"
+        "title": "domain-education-learning",
+        "description": "Education/Learning",
+        "content": "Education/Learning"
       },
       {
         "type": "category-entry",
-        "title": "domain-教育学习领域",
-        "description": "教育学习领域",
-        "content": "教育学习领域"
+        "title": "domain-sports-exercise",
+        "description": "Sports/Exercise",
+        "content": "Sports/Exercise"
       },
       {
         "type": "category-entry",
-        "title": "domain-电子商务领域",
-        "description": "电子商务领域",
-        "content": "电子商务领域"
+        "title": "domain-humanities-cultural-heritage",
+        "description": "Humanities/Cultural Heritage",
+        "content": "Humanities/Cultural Heritage"
       },
       {
         "type": "category-entry",
-        "title": "domain-社交媒体领域",
-        "description": "社交媒体领域",
-        "content": "社交媒体领域"
+        "title": "domain-art-design-creative",
+        "description": "Art Design/Creative",
+        "content": "Art Design/Creative"
       },
       {
         "type": "category-entry",
-        "title": "domain-艺术创作领域",
-        "description": "艺术创作领域",
-        "content": "艺术创作领域"
+        "title": "domain-e-commerce-retail",
+        "description": "E-commerce/Retail",
+        "content": "E-commerce/Retail"
       },
       {
         "type": "category-entry",
-        "title": "domain-通用领域",
-        "description": "通用领域",
-        "content": "通用领域"
+        "title": "domain-other",
+        "description": "Other",
+        "content": "Other"
       }
     ]
   },
