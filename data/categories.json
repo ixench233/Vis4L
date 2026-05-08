@@ -1,121 +1,9 @@
 [
   {
     "type": "category",
-    "title": "salon",
-    "description": "SALON Reference Model",
-    "childrenDescription": "SALON Reference Model: ",
-    "entries": [
-      {
-        "type": "category-entry",
-        "title": "salon-vl-representation",
-        "description": "VL-Representation",
-        "content": "VL-Representation"
-      },
-      {
-        "type": "category-entry",
-        "title": "salon-vl-translation",
-        "description": "VL-Translation",
-        "content": "VL-Translation"
-      },
-      {
-        "type": "category-entry",
-        "title": "salon-vl-alignment",
-        "description": "VL-Alignment",
-        "content": "VL-Alignment"
-      },
-      {
-        "type": "category-entry",
-        "title": "salon-vl-fusion",
-        "description": "VL-Fusion",
-        "content": "VL-Fusion"
-      },
-      {
-        "type": "category-entry",
-        "title": "salon-vl-co-learning",
-        "description": "VL-Co-learning",
-        "content": "VL-Co-learning"
-      }
-    ]
-  },
-  {
-    "type": "category",
-    "title": "task",
-    "description": "Downstream Task",
-    "childrenDescription": "Downstream Task: ",
-    "entries": [
-      {
-        "type": "category-entry",
-        "title": "task-foundation-model-visual-interpretation",
-        "description": "Foundation Model Visual Interpretation",
-        "content": "Foundation Model Visual Interpretation"
-      },
-      {
-        "type": "category-entry",
-        "title": "task-v-l-generation",
-        "description": "V-L Generation",
-        "content": "V-L Generation"
-      },
-      {
-        "type": "category-entry",
-        "title": "task-l-v-generation",
-        "description": "L-V Generation",
-        "content": "L-V Generation"
-      },
-      {
-        "type": "category-entry",
-        "title": "task-annotation",
-        "description": "Annotation",
-        "content": "Annotation"
-      },
-      {
-        "type": "category-entry",
-        "title": "task-retrieval",
-        "description": "Retrieval",
-        "content": "Retrieval"
-      },
-      {
-        "type": "category-entry",
-        "title": "task-matching",
-        "description": "Matching",
-        "content": "Matching"
-      },
-      {
-        "type": "category-entry",
-        "title": "task-grounding",
-        "description": "Grounding",
-        "content": "Grounding"
-      },
-      {
-        "type": "category-entry",
-        "title": "task-qa",
-        "description": "QA",
-        "content": "QA"
-      },
-      {
-        "type": "category-entry",
-        "title": "task-grounded-dialogue",
-        "description": "Grounded Dialogue",
-        "content": "Grounded Dialogue"
-      },
-      {
-        "type": "category-entry",
-        "title": "task-multimodal-collaborative-analysis",
-        "description": "Multimodal Collaborative Analysis",
-        "content": "Multimodal Collaborative Analysis"
-      },
-      {
-        "type": "category-entry",
-        "title": "task-classification",
-        "description": "Classification",
-        "content": "Classification"
-      }
-    ]
-  },
-  {
-    "type": "category",
     "title": "modality",
-    "description": "Modality Combination",
-    "childrenDescription": "Modality Combination: ",
+    "description": "Data Modality",
+    "childrenDescription": "Data Modality: ",
     "entries": [
       {
         "type": "category-entry",
@@ -223,153 +111,113 @@
   },
   {
     "type": "category",
-    "title": "model",
-    "description": "Model",
-    "childrenDescription": "Model: ",
+    "title": "salon",
+    "description": "SALON",
+    "childrenDescription": "SALON: ",
     "entries": [
       {
         "type": "category-entry",
-        "title": "model-cnn",
-        "description": "CNN",
-        "content": "CNN"
+        "title": "salon-vision-language-representation",
+        "description": "Vision-Language Representation",
+        "content": "Vision-Language Representation"
       },
       {
         "type": "category-entry",
-        "title": "model-rnn",
-        "description": "RNN",
-        "content": "RNN"
+        "title": "salon-vision-language-translation",
+        "description": "Vision-Language Translation",
+        "content": "Vision-Language Translation"
       },
       {
         "type": "category-entry",
-        "title": "model-lstm",
-        "description": "LSTM",
-        "content": "LSTM"
+        "title": "salon-vision-language-alignment",
+        "description": "Vision-Language Alignment",
+        "content": "Vision-Language Alignment"
       },
       {
         "type": "category-entry",
-        "title": "model-transformer",
-        "description": "Transformer",
-        "content": "Transformer"
+        "title": "salon-vision-language-fusion",
+        "description": "Vision-Language Fusion",
+        "content": "Vision-Language Fusion"
       },
       {
         "type": "category-entry",
-        "title": "model-vit",
-        "description": "ViT",
-        "content": "ViT"
+        "title": "salon-vision-language-co-learning",
+        "description": "Vision-Language Co-learning",
+        "content": "Vision-Language Co-learning"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "title": "task",
+    "description": "Downstream Task",
+    "childrenDescription": "Downstream Task: ",
+    "entries": [
+      {
+        "type": "category-entry",
+        "title": "task-model-interpretability",
+        "description": "Model Interpretability",
+        "content": "Model Interpretability"
       },
       {
         "type": "category-entry",
-        "title": "model-sam",
-        "description": "SAM",
-        "content": "SAM"
+        "title": "task-image-to-text",
+        "description": "Image-to-Text",
+        "content": "Image-to-Text"
       },
       {
         "type": "category-entry",
-        "title": "model-dino",
-        "description": "DINO",
-        "content": "DINO"
+        "title": "task-text-to-image",
+        "description": "Text-to-Image",
+        "content": "Text-to-Image"
       },
       {
         "type": "category-entry",
-        "title": "model-bert-series",
-        "description": "BERT Series",
-        "content": "BERT Series"
+        "title": "task-question-answering",
+        "description": "Question Answering",
+        "content": "Question Answering"
       },
       {
         "type": "category-entry",
-        "title": "model-claude-series",
-        "description": "Claude Series",
-        "content": "Claude Series"
+        "title": "task-grounded-dialogue",
+        "description": "Grounded Dialogue",
+        "content": "Grounded Dialogue"
       },
       {
         "type": "category-entry",
-        "title": "model-gemma-series",
-        "description": "Gemma Series",
-        "content": "Gemma Series"
+        "title": "task-classification",
+        "description": "Classification",
+        "content": "Classification"
       },
       {
         "type": "category-entry",
-        "title": "model-baichuan-series",
-        "description": "Baichuan Series",
-        "content": "Baichuan Series"
+        "title": "task-annotation",
+        "description": "Annotation",
+        "content": "Annotation"
       },
       {
         "type": "category-entry",
-        "title": "model-lamda",
-        "description": "LaMDA",
-        "content": "LaMDA"
+        "title": "task-retrieval",
+        "description": "Retrieval",
+        "content": "Retrieval"
       },
       {
         "type": "category-entry",
-        "title": "model-gpt-series",
-        "description": "GPT Series",
-        "content": "GPT Series"
+        "title": "task-matching",
+        "description": "Matching",
+        "content": "Matching"
       },
       {
         "type": "category-entry",
-        "title": "model-qwen-series",
-        "description": "Qwen Series",
-        "content": "Qwen Series"
+        "title": "task-grounding",
+        "description": "Grounding",
+        "content": "Grounding"
       },
       {
         "type": "category-entry",
-        "title": "model-gemini-series",
-        "description": "Gemini Series",
-        "content": "Gemini Series"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-clip",
-        "description": "CLIP",
-        "content": "CLIP"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-blip",
-        "description": "BLIP",
-        "content": "BLIP"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-llava",
-        "description": "LLaVA",
-        "content": "LLaVA"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-deepseek-series",
-        "description": "DeepSeek Series",
-        "content": "DeepSeek Series"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-stable-diffusion",
-        "description": "Stable Diffusion",
-        "content": "Stable Diffusion"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-sdxl",
-        "description": "SDXL",
-        "content": "SDXL"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-dall-e",
-        "description": "DALL-E",
-        "content": "DALL-E"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-domain-specific-model",
-        "description": "Domain-specific Model",
-        "content": "Domain-specific Model"
-      },
-      {
-        "type": "category-entry",
-        "title": "model-other",
-        "description": "Other",
-        "content": "Other"
+        "title": "task-multimodal-collaborative-analysis",
+        "description": "Multimodal Collaborative Analysis",
+        "content": "Multimodal Collaborative Analysis"
       }
     ]
   },
@@ -393,12 +241,6 @@
       },
       {
         "type": "category-entry",
-        "title": "vis_encoding-distribution-encoding",
-        "description": "Distribution Encoding",
-        "content": "Distribution Encoding"
-      },
-      {
-        "type": "category-entry",
         "title": "vis_encoding-structural-encoding",
         "description": "Structural Encoding",
         "content": "Structural Encoding"
@@ -408,6 +250,12 @@
         "title": "vis_encoding-hierarchical-encoding",
         "description": "Hierarchical Encoding",
         "content": "Hierarchical Encoding"
+      },
+      {
+        "type": "category-entry",
+        "title": "vis_encoding-distribution-encoding",
+        "description": "Distribution Encoding",
+        "content": "Distribution Encoding"
       },
       {
         "type": "category-entry",
@@ -437,15 +285,15 @@
       },
       {
         "type": "category-entry",
-        "title": "interaction-viewpoint-control",
-        "description": "Viewpoint Control",
-        "content": "Viewpoint Control"
-      },
-      {
-        "type": "category-entry",
         "title": "interaction-what-if",
         "description": "What-If",
         "content": "What-If"
+      },
+      {
+        "type": "category-entry",
+        "title": "interaction-viewpoint-control",
+        "description": "Viewpoint Control",
+        "content": "Viewpoint Control"
       },
       {
         "type": "category-entry",
@@ -463,15 +311,9 @@
     "entries": [
       {
         "type": "category-entry",
-        "title": "evaluation-qualitative-case-study",
-        "description": "Qualitative Case Study",
-        "content": "Qualitative Case Study"
-      },
-      {
-        "type": "category-entry",
-        "title": "evaluation-quantitative-metrics",
-        "description": "Quantitative Metrics",
-        "content": "Quantitative Metrics"
+        "title": "evaluation-case-study",
+        "description": "Case Study",
+        "content": "Case Study"
       },
       {
         "type": "category-entry",
@@ -484,6 +326,184 @@
         "title": "evaluation-user-experience",
         "description": "User Experience",
         "content": "User Experience"
+      },
+      {
+        "type": "category-entry",
+        "title": "evaluation-quantitative-experiment",
+        "description": "Quantitative Experiment",
+        "content": "Quantitative Experiment"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "title": "special_tags",
+    "description": "Special Tags",
+    "childrenDescription": "Special Tags: ",
+    "entries": [
+      {
+        "type": "category-entry",
+        "title": "special_tags-agent",
+        "description": "Agent",
+        "content": "Agent"
+      },
+      {
+        "type": "category-entry",
+        "title": "special_tags-rag",
+        "description": "RAG",
+        "content": "RAG"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "title": "model",
+    "description": "Base Model",
+    "childrenDescription": "Base Model: ",
+    "entries": [
+      {
+        "type": "category-entry",
+        "title": "model-clip",
+        "description": "CLIP",
+        "content": "CLIP"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-llava",
+        "description": "LLaVA",
+        "content": "LLaVA"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-gpt-series",
+        "description": "GPT Series",
+        "content": "GPT Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-blip",
+        "description": "BLIP",
+        "content": "BLIP"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-gemini-series",
+        "description": "Gemini Series",
+        "content": "Gemini Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-qwen-series",
+        "description": "Qwen Series",
+        "content": "Qwen Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-claude-series",
+        "description": "Claude Series",
+        "content": "Claude Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-deepseek-series",
+        "description": "DeepSeek Series",
+        "content": "DeepSeek Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-stable-diffusion",
+        "description": "Stable Diffusion",
+        "content": "Stable Diffusion"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-dall-e",
+        "description": "DALL-E",
+        "content": "DALL-E"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-sdxl",
+        "description": "SDXL",
+        "content": "SDXL"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-vit",
+        "description": "ViT",
+        "content": "ViT"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-sam",
+        "description": "SAM",
+        "content": "SAM"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-dino",
+        "description": "DINO",
+        "content": "DINO"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-transformer",
+        "description": "Transformer",
+        "content": "Transformer"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-bert-series",
+        "description": "BERT Series",
+        "content": "BERT Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-cnn",
+        "description": "CNN",
+        "content": "CNN"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-rnn",
+        "description": "RNN",
+        "content": "RNN"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-lstm",
+        "description": "LSTM",
+        "content": "LSTM"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-gemma-series",
+        "description": "Gemma Series",
+        "content": "Gemma Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-baichuan-series",
+        "description": "Baichuan Series",
+        "content": "Baichuan Series"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-lamda",
+        "description": "LaMDA",
+        "content": "LaMDA"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-domain-specific-model",
+        "description": "Domain-specific Model",
+        "content": "Domain-specific Model"
+      },
+      {
+        "type": "category-entry",
+        "title": "model-other",
+        "description": "Other",
+        "content": "Other"
       }
     ]
   },
@@ -558,26 +578,6 @@
         "title": "domain-other",
         "description": "Other",
         "content": "Other"
-      }
-    ]
-  },
-  {
-    "type": "category",
-    "title": "special_tags",
-    "description": "Special Tags",
-    "childrenDescription": "Special Tags: ",
-    "entries": [
-      {
-        "type": "category-entry",
-        "title": "special_tags-agent",
-        "description": "Agent",
-        "content": "Agent"
-      },
-      {
-        "type": "category-entry",
-        "title": "special_tags-rag",
-        "description": "RAG",
-        "content": "RAG"
       }
     ]
   }

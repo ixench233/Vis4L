@@ -3,35 +3,32 @@
 var scatterCharts = {};
 var scatterEntries = [];
 var scatterLoaded = false;
+var taxonomyColors = {};
 window.vis4vlScatterCharts = scatterCharts;
 
+// Colors follow Excel taxonomy "Cross-modal Task" block (#8B6B9D), light→dark purple
 var scatterColors = [
-	"rgb(238, 125, 191)",
-	"rgb(40, 3, 245)",
-	"rgb(94, 204, 250)",
-	"rgb(86, 116, 232)",
-	"rgb(139, 139, 61)",
-	"rgb(241, 152, 143)",
-	"rgb(240, 149, 54)",
-	"rgb(224, 208, 108)",
-	"rgb(204, 98, 204)",
-	"rgb(201, 42, 29)",
-	"rgb(234, 55, 38)",
-	"rgb(234, 51, 153)"
+	"#4A7A9C",
+	"#A6A6A6",
+	"#D9B830",
+	"#DA711A",
+	"#74AAA1",
+	"#8B6B9D",
+	"#D2AAAA"
 ];
 
 var scatterChartConfigs = [
 	{
 		elementId: "contain",
-		title: "SALON Reference Model",
+		title: "SALON",
 		field: "salon",
-		schemaText: "SALON Reference Model"
+		schemaText: "SALON"
 	},
 	{
 		elementId: "contain2",
-		title: "Modality Combination",
+		title: "Data Modality",
 		field: "modality",
-		schemaText: "Modality Combination"
+		schemaText: "Data Modality"
 	},
 	{
 		elementId: "con3",
@@ -48,17 +45,17 @@ var scatterChartConfigs = [
 ];
 
 var scatterTaskOrder = [
-	"Foundation Model Visual Interpretation",
-	"V-L Generation",
-	"L-V Generation",
+	"Model Interpretability",
+	"Image-to-Text",
+	"Text-to-Image",
+	"Question Answering",
+	"Grounded Dialogue",
+	"Classification",
 	"Annotation",
 	"Retrieval",
 	"Matching",
 	"Grounding",
-	"QA",
-	"Grounded Dialogue",
 	"Multimodal Collaborative Analysis",
-	"Classification",
 	"Other"
 ];
 
@@ -92,10 +89,17 @@ function initializeScatter() {
 		return;
 	}
 
-	$.getJSON("data/scatter.json?v=tsne-20260427b", function (data) {
-		scatterEntries = data || [];
+	$.when(
+		$.getJSON("data/scatter.json?v=taxonomy-20260507"),
+		$.getJSON("data/taxonomy_colors.json?v=taxonomy-20260507")
+	).done(function (scatterResponse, colorResponse) {
+		scatterEntries = scatterResponse[0] || [];
+		taxonomyColors = colorResponse[0] || {};
+		scatterColors = buildScatterPalette(taxonomyColors);
 		scatterLoaded = true;
 		renderAllScatterCharts();
+	}).fail(function () {
+		scatterColors = buildScatterPalette({});
 	});
 }
 
@@ -153,7 +157,7 @@ function renderScatterChart(config) {
 					+ "<br><b>" + escapeScatterHtml(config.schemaText) + "</b>: " + escapeScatterHtml(value[5])
 					+ "<br><b>Major Category</b>: " + escapeScatterHtml(value[3])
 					+ "<br><b>Minor Category</b>: " + escapeScatterHtml(value[4])
-					+ "<br><b>Model</b>: " + escapeScatterHtml(value[6]);
+					+ "<br><b>Base Model</b>: " + escapeScatterHtml(value[6]);
 			}
 		},
 		xAxis: {
@@ -287,6 +291,28 @@ function appendScatterLegend() {
 		}
 		table.append(row);
 	}
+}
+
+function buildScatterPalette(colors) {
+	var orderedKeys = ["modality", "model", "vis_encoding", "interaction", "evaluation", "task", "domain"];
+	var fallback = ["#4A7A9C", "#A6A6A6", "#D9B830", "#DA711A", "#74AAA1", "#8B6B9D", "#D2AAAA"];
+	var palette = [];
+
+	$.each(orderedKeys, function (_index, key) {
+		var color = colors[key];
+		if (color && palette.indexOf(color) === -1)
+			palette.push(color);
+	});
+
+	if (!palette.length)
+		return fallback;
+
+	$.each(fallback, function (_index, color) {
+		if (palette.indexOf(color) === -1)
+			palette.push(color);
+	});
+
+	return palette;
 }
 
 function onScatterPointClick(params) {

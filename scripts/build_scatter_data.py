@@ -1,8 +1,12 @@
 import json
 import re
+import zipfile
+import xml.etree.ElementTree as ET
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import numpy as np
+from openpyxl import load_workbook
 from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.manifold import TSNE
@@ -12,6 +16,8 @@ from sklearn.preprocessing import normalize
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT_PATH = ROOT / "data" / "content.json"
 SCATTER_PATH = ROOT / "data" / "scatter.json"
+TAXONOMY_COLORS_PATH = ROOT / "data" / "taxonomy_colors.json"
+TAXONOMY_XLSX_PATH = ROOT / "vis_data" / "taxonomy-new(1).xlsx"
 
 
 TEXT_FIELDS = [
@@ -37,6 +43,21 @@ CATEGORY_FIELDS = [
     "evaluation",
     "special_tags",
 ]
+
+DRAWING_NS = {
+    "xdr": "http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing",
+    "a": "http://schemas.openxmlformats.org/drawingml/2006/main",
+}
+
+TAXONOMY_TITLE_TO_KEY = {
+    "Data Modality": "modality",
+    "Model": "model",
+    "Visualization": "vis_encoding",
+    "Interaction": "interaction",
+    "Evaluation": "evaluation",
+    "Cross-modal Task": "task",
+    "Application": "domain",
+}
 
 
 def as_list(value):
@@ -88,6 +109,76 @@ def normalize_coordinates(coords):
     coords = coords / scale * 5
 
     return np.clip(coords, -6, 6)
+
+
+def hex_color(value):
+    value = str(value or "").strip().upper()
+    if len(value) == 6:
+        return "#" + value
+    if len(value) == 8:
+        return "#" + value[-6:]
+    return ""
+
+
+def top_header_ranges(ws):
+    ranges = []
+    for merged in ws.merged_cells.ranges:
+        if merged.min_row == 1 and merged.max_row == 1:
+            title = ws.cell(1, merged.min_col).value
+            if title:
+                ranges.append((merged.min_col, merged.max_col, str(title).strip()))
+
+    for col in range(1, ws.max_column + 1):
+        value = ws.cell(1, col).value
+        if not value:
+            continue
+        if any(start <= col <= end for start, end, _title in ranges):
+            continue
+        ranges.append((col, col, str(value).strip()))
+
+    return sorted(ranges, key=lambda item: item[0])
+
+
+def taxonomy_colors_from_excel():
+    if not TAXONOMY_XLSX_PATH.exists():
+        return {}
+
+    workbook = load_workbook(TAXONOMY_XLSX_PATH, data_only=False)
+    worksheet = workbook["Sheet1"]
+    header_ranges = top_header_ranges(worksheet)
+
+    column_to_key = {}
+    for start_col, end_col, title in header_ranges:
+        key = TAXONOMY_TITLE_TO_KEY.get(title)
+        if not key:
+            continue
+        for col in range(start_col, end_col + 1):
+            column_to_key[col] = key
+
+    counts = defaultdict(Counter)
+    with zipfile.ZipFile(TAXONOMY_XLSX_PATH) as archive:
+        root = ET.fromstring(archive.read("xl/drawings/drawing1.xml"))
+        for anchor in root.findall("xdr:twoCellAnchor", DRAWING_NS):
+            col = int(anchor.findtext("xdr:from/xdr:col", namespaces=DRAWING_NS)) + 1
+            key = column_to_key.get(col)
+            if not key:
+                continue
+
+            color = ""
+            for fill in anchor.findall(".//a:solidFill", DRAWING_NS):
+                clr = fill.find("a:srgbClr", DRAWING_NS)
+                if clr is not None:
+                    color = hex_color(clr.attrib.get("val"))
+                    if color:
+                        break
+
+            if color:
+                counts[key][color] += 1
+
+    colors = {}
+    for key, counter in counts.items():
+        colors[key] = counter.most_common(1)[0][0]
+    return colors
 
 
 def main():
@@ -146,7 +237,13 @@ def main():
         json.dumps(scatter_entries, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    taxonomy_colors = taxonomy_colors_from_excel()
+    TAXONOMY_COLORS_PATH.write_text(
+        json.dumps(taxonomy_colors, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     print(f"Wrote {len(scatter_entries)} entries to {SCATTER_PATH}")
+    print(f"Wrote taxonomy colors to {TAXONOMY_COLORS_PATH}")
 
 
 if __name__ == "__main__":

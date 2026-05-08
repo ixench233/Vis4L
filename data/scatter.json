@@ -2,8 +2,8 @@
   {
     "id": "hullman2013contextifier",
     "title": "Contextifier- Automatic Generation of Annotated Stock Visualizations",
-    "x": 3.210344,
-    "y": 1.285998,
+    "x": 0.377644,
+    "y": 3.75175,
     "salon": [],
     "task": [
       "Annotation",
@@ -26,8 +26,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2013,
@@ -37,8 +37,8 @@
   {
     "id": "matejka2014video",
     "title": "Video lens：rapid playback and exploration of large video collections and associated metadata",
-    "x": -0.255225,
-    "y": 4.094996,
+    "x": 0.169853,
+    "y": -1.030651,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -63,7 +63,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance",
       "User Experience"
     ],
@@ -75,8 +75,8 @@
   {
     "id": "bryan2016temporal",
     "title": "Temporal Summary Images: An Approach to Narrative Visualization via Interactive Annotation Generation and Placement",
-    "x": 2.940802,
-    "y": 1.603752,
+    "x": 0.583509,
+    "y": 3.495528,
     "salon": [],
     "task": [
       "Annotation",
@@ -93,7 +93,7 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2016,
@@ -103,8 +103,8 @@
   {
     "id": "chen2016gameflow",
     "title": "GameFlow：Narrative Visualization of NBA Basketball Games",
-    "x": 2.921284,
-    "y": 5.054149,
+    "x": 2.613792,
+    "y": 5.153091,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -129,7 +129,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance",
       "User Experience"
     ],
@@ -141,8 +141,8 @@
   {
     "id": "amini2016authoring",
     "title": "Authoring Data-Driven Videos with DataClips",
-    "x": 4.275646,
-    "y": 2.442134,
+    "x": -2.528526,
+    "y": 4.264662,
     "salon": [],
     "task": [
       "Annotation"
@@ -167,7 +167,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -179,11 +179,11 @@
   {
     "id": "strobelt2017lstmvis",
     "title": "LSTMVis: A Tool for Visual Analysis of Hidden State Dynamics in Recurrent Neural Networks",
-    "x": 1.93355,
-    "y": -4.526317,
+    "x": -0.94906,
+    "y": -3.834241,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -207,7 +207,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2017,
@@ -217,8 +217,8 @@
   {
     "id": "chandrasegaran2017vizscribe",
     "title": "VizScribe：A Visual Analytics Approach to Understand Designer Behavior",
-    "x": -1.170182,
-    "y": 3.094855,
+    "x": -0.933463,
+    "y": 0.080926,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -242,7 +242,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -254,8 +254,8 @@
   {
     "id": "ren2017chartaccent",
     "title": "ChartAccent- Annotation for Data-Driven Storytelling",
-    "x": 2.925858,
-    "y": 1.117907,
+    "x": 0.143472,
+    "y": 3.620533,
     "salon": [],
     "task": [
       "Annotation",
@@ -282,8 +282,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -295,8 +295,8 @@
   {
     "id": "latif2018vis",
     "title": "VIS Author Profiles：Interactive Descriptions of Publication Records Combining Text and Visualization",
-    "x": 1.883607,
-    "y": 2.232102,
+    "x": -0.742328,
+    "y": 3.773165,
     "salon": [],
     "task": [
       "Annotation"
@@ -318,7 +318,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2018,
@@ -328,8 +328,8 @@
   {
     "id": "xie2018semantic",
     "title": "A Semantic-Based Method for Visualizing Large Image Collections",
-    "x": 0.384338,
-    "y": -2.150977,
+    "x": 1.928079,
+    "y": -1.659905,
     "salon": [],
     "task": [
       "Classification"
@@ -355,8 +355,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -368,8 +368,8 @@
   {
     "id": "metoyer2018coupling",
     "title": "Coupling Story to Visualization：Using Textual Analysis as a Bridge Between Data and Interpretation",
-    "x": 2.320705,
-    "y": 3.380621,
+    "x": 1.154135,
+    "y": 3.759828,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -394,7 +394,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2018,
@@ -404,8 +404,8 @@
   {
     "id": "john2019visual",
     "title": "Visual Exploration of Topics in Multimedia News Corpora",
-    "x": -3.829728,
-    "y": 3.575365,
+    "x": -2.478403,
+    "y": -3.869504,
     "salon": [],
     "task": [
       "Classification"
@@ -433,7 +433,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2019,
@@ -443,8 +443,8 @@
   {
     "id": "latif2019authoring",
     "title": "Authoring Combined Textual and Visual Descriptions of Graph Data",
-    "x": 1.888342,
-    "y": 2.317899,
+    "x": -0.88099,
+    "y": 3.822037,
     "salon": [],
     "task": [
       "Annotation"
@@ -468,7 +468,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2019,
@@ -478,11 +478,11 @@
   {
     "id": "reif2019visualizing",
     "title": "Visualizing and Measuring the Geometry of BERT",
-    "x": -0.058644,
-    "y": -5.014961,
+    "x": 0.900634,
+    "y": -4.606609,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -501,7 +501,7 @@
     "specific_view": "散点图、文本标签、像素热力图、柱状图、树状图",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2019,
@@ -511,8 +511,8 @@
   {
     "id": "zeng2019emoco",
     "title": "EmoCo：Visual Analysis of Emotion Coherence in Presentation Videos",
-    "x": -1.684156,
-    "y": 4.040097,
+    "x": -0.6562,
+    "y": -0.793125,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -541,7 +541,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2019,
@@ -551,11 +551,11 @@
   {
     "id": "spinner2019explainer",
     "title": "explAIner：A Visual Analytics Framework for Interactive and Explainable Machine Learning",
-    "x": 1.194798,
-    "y": -3.433718,
+    "x": 0.630595,
+    "y": -2.574908,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image-Language"
@@ -579,8 +579,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -591,8 +591,8 @@
   {
     "id": "kvist2020dynamic",
     "title": "Dynamic Visualization System for Gaze and Dialogue Data",
-    "x": -0.847409,
-    "y": 2.442967,
+    "x": -1.432023,
+    "y": 0.330068,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -613,7 +613,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [],
@@ -624,11 +624,11 @@
   {
     "id": "kim2020answering",
     "title": "Answering Questions about Charts and Generating Visual Explanations",
-    "x": 1.701653,
-    "y": 0.084688,
+    "x": -3.862094,
+    "y": -2.133879,
     "salon": [],
     "task": [
-      "QA"
+      "Question Answering"
     ],
     "modality": [
       "Chart Image-Language"
@@ -643,8 +643,8 @@
     "specific_view": "原始文本、文本标签",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -656,11 +656,11 @@
   {
     "id": "liu2020autocaption",
     "title": "AutoCaption- An Approach to Generate Natural Language Description from Visualization Automatically",
-    "x": 1.585085,
-    "y": 0.785014,
+    "x": -0.672021,
+    "y": 2.834639,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -679,8 +679,8 @@
       "Linking"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -691,8 +691,8 @@
   {
     "id": "wu2018multimodal",
     "title": "Multimodal Analysis of Video Collections Visual Exploration of Presentation Techniques in TED Talks",
-    "x": -1.347356,
-    "y": 3.992013,
+    "x": -0.718944,
+    "y": -0.982138,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -719,8 +719,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -731,8 +731,8 @@
   {
     "id": "lalle2020gaze",
     "title": "Gaze-Driven Links for Magazine Style Narrative Visualizations",
-    "x": -0.306802,
-    "y": 1.916678,
+    "x": -3.247358,
+    "y": 2.182853,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -753,8 +753,8 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -766,11 +766,11 @@
   {
     "id": "derose2020attention",
     "title": "Attention Flows- Analyzing and Comparing Attention Mechanisms in Language Models",
-    "x": 0.932716,
-    "y": -5.27713,
+    "x": -0.310461,
+    "y": -4.633922,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -793,7 +793,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2020,
@@ -803,8 +803,8 @@
   {
     "id": "lai2020automatic",
     "title": "Automatic Annotation Synchronizing with Textual Description for Visualization",
-    "x": 2.721983,
-    "y": 1.231575,
+    "x": 0.169492,
+    "y": 3.441738,
     "salon": [],
     "task": [
       "Annotation",
@@ -830,8 +830,8 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -843,8 +843,8 @@
   {
     "id": "wang2020voicecoach",
     "title": "VoiceCoach- Interactive Evidence-based Training for Voice Modulation Skills in Public Speaking",
-    "x": -2.169084,
-    "y": 4.694882,
+    "x": -1.3281,
+    "y": -1.397562,
     "salon": [],
     "task": [
       "Retrieval"
@@ -871,7 +871,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -882,8 +882,8 @@
   {
     "id": "deng2021eventanchor",
     "title": "EventAnchor- Reducing Human Interactions in Event Annotation of Racket Sports Videos",
-    "x": 3.356452,
-    "y": 4.155952,
+    "x": 1.975387,
+    "y": 4.178785,
     "salon": [],
     "task": [
       "Annotation",
@@ -921,8 +921,8 @@
   {
     "id": "jia2021towards",
     "title": "Towards Visual Explainable Active Learning for Zero-Shot Classification",
-    "x": 0.176273,
-    "y": -2.666161,
+    "x": 1.458171,
+    "y": -2.148019,
     "salon": [],
     "task": [
       "Classification"
@@ -950,7 +950,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance"
     ],
     "special_tags": [],
@@ -961,11 +961,11 @@
   {
     "id": "wang2021m2lens",
     "title": "M2Lens: Visualizing and Explaining Multimodal Models for Sentiment Analysis",
-    "x": 0.683335,
-    "y": -3.248762,
+    "x": 0.348437,
+    "y": -2.172208,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Video-Language-Audio"
@@ -991,7 +991,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -1002,8 +1002,8 @@
   {
     "id": "calisto2021introduction",
     "title": "Introduction of human-centric AI assistant to aid radiologists for multimodal breast image classification",
-    "x": 4.681314,
-    "y": -0.260268,
+    "x": -4.754464,
+    "y": 0.501517,
     "salon": [],
     "task": [
       "Classification"
@@ -1030,8 +1030,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -1043,8 +1043,8 @@
   {
     "id": "madan2021parsing",
     "title": "Parsing and Summarizing Infographics with Synthetically Trained Icon Detection",
-    "x": -0.324269,
-    "y": 1.580545,
+    "x": -3.313395,
+    "y": 2.441545,
     "salon": [],
     "task": [
       "Retrieval"
@@ -1064,8 +1064,8 @@
     "specific_view": "原始文本、文本标签",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -1076,11 +1076,11 @@
   {
     "id": "lundgard2021accessible",
     "title": "Accessible Visualization via Natural Language Descriptions：A Four-Level Model of Semantic Content",
-    "x": 1.412032,
-    "y": 1.704271,
+    "x": 0.256792,
+    "y": 2.501921,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -1095,8 +1095,8 @@
     "specific_view": "原始文本",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -1107,8 +1107,8 @@
   {
     "id": "zhu2021augmenting",
     "title": "Augmenting Sports Videos with VisCommentator",
-    "x": 3.105991,
-    "y": 4.050169,
+    "x": 1.992274,
+    "y": 4.424527,
     "salon": [],
     "task": [
       "Annotation",
@@ -1134,7 +1134,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -1145,8 +1145,8 @@
   {
     "id": "soure2021coux",
     "title": "CoUX：Collaborative Visual Analysis of Think-Aloud Usability Test Videos for Digital Interfaces",
-    "x": -0.35313,
-    "y": 3.854437,
+    "x": 0.26751,
+    "y": -0.859717,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -1171,8 +1171,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -1184,8 +1184,8 @@
   {
     "id": "wang2021dehumor",
     "title": "DeHumor：Visual analytics for decomposing humor",
-    "x": -1.603569,
-    "y": 4.340672,
+    "x": -1.057159,
+    "y": -0.771872,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -1211,7 +1211,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -1222,8 +1222,8 @@
   {
     "id": "maher2021ffective",
     "title": "E-ffective：A Visual Analytic System for Exploring the Emotion and Effectiveness of Inspirational Speeches",
-    "x": -2.135167,
-    "y": 4.393257,
+    "x": -1.232246,
+    "y": -1.105208,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -1251,7 +1251,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -1262,8 +1262,8 @@
   {
     "id": "latif2021kori",
     "title": "Kori：Interactive Synthesis of Text and Charts in Data Documents",
-    "x": 2.055643,
-    "y": 1.165457,
+    "x": -0.447717,
+    "y": 3.203601,
     "salon": [],
     "task": [
       "Grounding"
@@ -1284,7 +1284,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -1295,8 +1295,8 @@
   {
     "id": "tang2021videomoderator",
     "title": "VideoModerator：A Risk-aware Framework for Multimodal Video Moderation in E-Commerce",
-    "x": 0.271806,
-    "y": 3.909816,
+    "x": -0.094443,
+    "y": -1.411198,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -1324,8 +1324,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -1337,11 +1337,11 @@
   {
     "id": "jaunet2021visqa",
     "title": "VisQA：X-raying Vision and Language Reasoning in Transformers",
-    "x": 1.149683,
-    "y": -3.815856,
+    "x": 0.357947,
+    "y": -2.941406,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image-Language"
@@ -1368,7 +1368,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -1379,11 +1379,11 @@
   {
     "id": "latif2021visually",
     "title": "Visually Connecting Historical Figures Through Event Knowledge Graphs",
-    "x": -5.349535,
-    "y": 0.020361,
+    "x": 2.04063,
+    "y": 2.318391,
     "salon": [],
     "task": [
-      "QA"
+      "Question Answering"
     ],
     "modality": [
       "Visual System-Language"
@@ -1406,7 +1406,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2021,
@@ -1416,11 +1416,11 @@
   {
     "id": "shi2021autoclips",
     "title": "AutoClips- An Automatic Approach to Video Generation from Data Facts",
-    "x": 4.379134,
-    "y": 2.212106,
+    "x": -2.442349,
+    "y": 4.063147,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Data Video-Language"
@@ -1444,11 +1444,11 @@
   {
     "id": "wang2021dodrio",
     "title": "DODRIO- Exploring Transformer Models with Interactive Visualization",
-    "x": 1.161969,
-    "y": -5.233546,
+    "x": -0.424827,
+    "y": -4.561695,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -1471,7 +1471,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2021,
@@ -1481,8 +1481,8 @@
   {
     "id": "chen2021towards",
     "title": "Towards Better Caption Supervision for Object Detection",
-    "x": 2.888032,
-    "y": -1.500508,
+    "x": -1.421228,
+    "y": -2.143286,
     "salon": [],
     "task": [
       "Grounding"
@@ -1511,8 +1511,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [],
@@ -1523,11 +1523,11 @@
   {
     "id": "aflalo2022vl",
     "title": "VL-InterpreT- An Interactive Visualization Tool for Interpreting Vision-Language Transformers",
-    "x": 1.217835,
-    "y": -4.169677,
+    "x": -0.110347,
+    "y": -3.612877,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image-Language"
@@ -1550,7 +1550,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2022,
@@ -1560,11 +1560,11 @@
   {
     "id": "feng2022ipoet",
     "title": "iPoet：interactive painting poetry creation with visual multimodal analysis",
-    "x": 4.847579,
-    "y": -3.262865,
+    "x": 3.46955,
+    "y": 2.292073,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Natural Image-Language"
@@ -1591,8 +1591,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -1603,8 +1603,8 @@
   {
     "id": "zhang2022cohortva",
     "title": "GestureLens：Visual Analysis of Gestures in Presentation Videos",
-    "x": -1.501917,
-    "y": 4.159876,
+    "x": -0.891277,
+    "y": -0.914638,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -1629,7 +1629,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -1640,8 +1640,8 @@
   {
     "id": "zhu2022sporthesia",
     "title": "Sporthesia：Augmenting Sports Videos Using Natural Language",
-    "x": 3.075364,
-    "y": 4.137717,
+    "x": 1.919088,
+    "y": 4.408086,
     "salon": [],
     "task": [
       "Annotation",
@@ -1664,8 +1664,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -1677,8 +1677,8 @@
   {
     "id": "liu2022crossa11y",
     "title": "CrossA11y- Identifying Video Accessibility Issues via Cross-modal Grounding",
-    "x": 0.482613,
-    "y": 4.394329,
+    "x": 0.85539,
+    "y": -0.51809,
     "salon": [],
     "task": [
       "Matching"
@@ -1702,8 +1702,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -1715,11 +1715,11 @@
   {
     "id": "choi2022intentable",
     "title": "Intentable- A Mixed-Initiative System for Intent-Based Chart Captioning",
-    "x": -0.074344,
-    "y": 1.53227,
+    "x": -3.32706,
+    "y": 2.359597,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -1739,8 +1739,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2022,
@@ -1750,11 +1750,11 @@
   {
     "id": "chung2022talebrush",
     "title": "TaleBrush：Sketching Stories with Generative Pretrained Language Models",
-    "x": -1.270438,
-    "y": 0.152612,
+    "x": 1.775263,
+    "y": 0.888953,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -1776,8 +1776,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -1788,8 +1788,8 @@
   {
     "id": "hoque2022visual",
     "title": "Visual Concept Programming- A Visual Analytics Approach to Injecting Human Intelligence at Scale",
-    "x": 4.581074,
-    "y": -1.936041,
+    "x": 2.830512,
+    "y": -2.805757,
     "salon": [],
     "task": [
       "Annotation"
@@ -1816,7 +1816,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2022,
@@ -1826,8 +1826,8 @@
   {
     "id": "lin2023quest",
     "title": "The Quest for：Embedded Visualization for Augmenting Basketball Game Viewing Experiences",
-    "x": 2.888487,
-    "y": 4.842584,
+    "x": 2.657111,
+    "y": 4.920859,
     "salon": [],
     "task": [
       "Annotation",
@@ -1853,7 +1853,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -1864,11 +1864,11 @@
   {
     "id": "liu2022opal",
     "title": "Opal：Multimodal Image Generation for News Illustration",
-    "x": -1.717651,
-    "y": -1.953069,
+    "x": 2.852107,
+    "y": -0.203757,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -1893,8 +1893,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -1906,11 +1906,11 @@
   {
     "id": "strobelt2022interactive",
     "title": "Interactive and Visual Prompt Engineering for Ad-hoc Task Adaptation with Large Language Models",
-    "x": -0.363642,
-    "y": -4.020953,
+    "x": 1.25802,
+    "y": -3.675888,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -1935,7 +1935,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2022,
@@ -1945,11 +1945,11 @@
   {
     "id": "sevastjanova2022visual",
     "title": "Visual Comparison of Language Model Adaptation",
-    "x": -0.255089,
-    "y": -5.13539,
+    "x": 1.112453,
+    "y": -4.746662,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -1972,7 +1972,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2022,
@@ -1982,11 +1982,11 @@
   {
     "id": "wu2022ai",
     "title": "AI Chains：Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts",
-    "x": -0.864022,
-    "y": -4.355969,
+    "x": 1.794268,
+    "y": -4.121351,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -2008,7 +2008,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance",
       "User Experience"
     ],
@@ -2020,8 +2020,8 @@
   {
     "id": "zhu2023iball",
     "title": "iBall：Augmenting Basketball Videos with Gaze-moderated Embedded Visualizations",
-    "x": 3.133398,
-    "y": 4.766247,
+    "x": 2.444031,
+    "y": 4.930886,
     "salon": [],
     "task": [
       "Annotation",
@@ -2048,7 +2048,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -2059,8 +2059,8 @@
   {
     "id": "chen2023meetscript",
     "title": "MeetScript：Designing Transcript-based Interactions to Support Active Participation in Group Video Meetings",
-    "x": -1.156543,
-    "y": 3.487829,
+    "x": -0.816764,
+    "y": -0.248222,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -2086,7 +2086,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance",
       "User Experience"
     ],
@@ -2098,11 +2098,11 @@
   {
     "id": "sultanum2023datatales",
     "title": "DATATALES：Investigating the use of Large Language Models for Authoring Data-Driven Articles",
-    "x": -0.114716,
-    "y": 1.027503,
+    "x": -2.639885,
+    "y": 2.614405,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -2124,7 +2124,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2023,
@@ -2134,11 +2134,11 @@
   {
     "id": "xiao2023let",
     "title": "Let the Chart Spark: Embedding Semantic Context into Chart with Text-to-Image Generative Model",
-    "x": -1.540254,
-    "y": -0.807521,
+    "x": 3.583521,
+    "y": 1.098932,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -2160,7 +2160,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -2171,8 +2171,8 @@
   {
     "id": "liebers2023viscomet",
     "title": "VisCoMET：Visually Analyzing Team Collaboration in Medical Emergency Trainings",
-    "x": -0.412132,
-    "y": 3.460987,
+    "x": -1.914205,
+    "y": -0.4168,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -2197,7 +2197,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -2208,8 +2208,8 @@
   {
     "id": "xiao2023wytiwyr",
     "title": "WYTIWYR：A User Intent-Aware Framework with Multi-modal Inputs for Visualization Retrieval",
-    "x": 0.872951,
-    "y": 0.045064,
+    "x": 0.618159,
+    "y": 1.127951,
     "salon": [],
     "task": [
       "Retrieval"
@@ -2233,8 +2233,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -2246,11 +2246,11 @@
   {
     "id": "liang2023multiviz",
     "title": "MultiViz- Towards User-Centric Visualizations and Interpretations of Multimodal Models",
-    "x": 0.820795,
-    "y": -3.250961,
+    "x": 0.371649,
+    "y": -2.262682,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image-Language",
@@ -2281,8 +2281,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -2293,8 +2293,8 @@
   {
     "id": "liu2023visual",
     "title": "Visual Captions- Augmenting Verbal Communication with On-the-fly Visuals",
-    "x": -3.138331,
-    "y": 0.397055,
+    "x": 0.363556,
+    "y": 0.949481,
     "salon": [],
     "task": [
       "Retrieval"
@@ -2320,8 +2320,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [
@@ -2334,11 +2334,11 @@
   {
     "id": "pan2023graphdescriptor",
     "title": "GraphDescriptor- Augmenting Node-Link Diagrams With Textual Descriptions",
-    "x": 1.304985,
-    "y": 0.962984,
+    "x": -1.440394,
+    "y": 3.369824,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -2358,8 +2358,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -2371,11 +2371,11 @@
   {
     "id": "cabrera2023did",
     "title": "What Did My AI Learn_How Data Scientists Make Sense of Model Behavior",
-    "x": 1.155923,
-    "y": -3.630955,
+    "x": 0.480877,
+    "y": -2.761937,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image-Language"
@@ -2398,7 +2398,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -2409,8 +2409,8 @@
   {
     "id": "singh2023hide",
     "title": "Where to Hide a Stolen Elephant：Leaps in Creative Writing with Multimodal Machine Intelligence",
-    "x": -1.597843,
-    "y": 0.116617,
+    "x": 1.685896,
+    "y": 0.848284,
     "salon": [],
     "task": [
       "Retrieval"
@@ -2434,8 +2434,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -2446,8 +2446,8 @@
   {
     "id": "wong2023anchorage",
     "title": "Anchorage：Visual Analysis of Satisfaction in Customer Service Videos Via Anchor Events",
-    "x": -0.707799,
-    "y": 4.001664,
+    "x": -0.219588,
+    "y": -1.056646,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -2474,8 +2474,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -2486,11 +2486,11 @@
   {
     "id": "yeh2023attentionviz",
     "title": "AttentionViz- A Global View of Transformer Attention",
-    "x": 0.91344,
-    "y": -4.87034,
+    "x": -0.029751,
+    "y": -4.250919,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image",
@@ -2516,7 +2516,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -2527,11 +2527,11 @@
   {
     "id": "liu2023autotitle",
     "title": "AutoTitle：An Interactive Title Generator for Visualizations",
-    "x": -1.290849,
-    "y": 0.599955,
+    "x": -0.797017,
+    "y": 1.419321,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -2554,8 +2554,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -2566,11 +2566,11 @@
   {
     "id": "shen2023data",
     "title": "Data Player：Automatic Generation of Data Videos with Narration-Animation Interplay",
-    "x": 4.752355,
-    "y": 2.329758,
+    "x": -2.884651,
+    "y": 4.055152,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Data Video-Language-Audio",
@@ -2588,7 +2588,7 @@
     "specific_view": "原始文本",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -2599,8 +2599,8 @@
   {
     "id": "yao2023designing",
     "title": "Designing for Visualization in Motion：Embedding Visualizations in Swimming Videos",
-    "x": 2.890846,
-    "y": 3.924932,
+    "x": 1.844376,
+    "y": 4.595611,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -2623,8 +2623,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -2635,8 +2635,8 @@
   {
     "id": "jiang2023healthprism",
     "title": "HealthPrism：A Visual Analytics System for Exploring Children' s Physical and Mental Health Profiles with Multimodal Data",
-    "x": 0.589386,
-    "y": 2.930167,
+    "x": -2.394671,
+    "y": -1.359717,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -2667,8 +2667,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -2679,11 +2679,11 @@
   {
     "id": "li2023does",
     "title": "How Does Attention Work in Vision Transformers：Avisual Analytics Attempt",
-    "x": 1.086975,
-    "y": -4.953995,
+    "x": -0.175837,
+    "y": -4.313203,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image"
@@ -2708,7 +2708,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -2719,11 +2719,11 @@
   {
     "id": "lin2023inksight",
     "title": "InkSight：Leveraging Sketch Interaction for Documenting Chart Findings in Computational Notebooks",
-    "x": 0.70314,
-    "y": 0.983977,
+    "x": -1.512015,
+    "y": 0.914838,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -2745,8 +2745,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -2758,8 +2758,8 @@
   {
     "id": "ouyang2023leveraging",
     "title": "Leveraging Historical Medical Records as a Proxy via Multimodal Modeling and Visualization to Enrich Medical Diagnostic Learning",
-    "x": 4.428294,
-    "y": 0.054285,
+    "x": -4.415897,
+    "y": 0.285533,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -2790,8 +2790,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -2803,8 +2803,8 @@
   {
     "id": "wu2023liveretro",
     "title": "LiveRetro：Visual Analytics for Strategic Retrospect in Livestream E-Commerce",
-    "x": 0.394062,
-    "y": 3.659151,
+    "x": -0.32677,
+    "y": -1.575729,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -2835,8 +2835,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -2847,11 +2847,11 @@
   {
     "id": "feng2023promptmagician",
     "title": "PromptMagician：Interactive Prompt Engineering forText-to-Image Creation",
-    "x": -2.732898,
-    "y": -1.981832,
+    "x": 3.429576,
+    "y": -0.32649,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -2876,7 +2876,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -2887,8 +2887,8 @@
   {
     "id": "huang2023speechmirror",
     "title": "SpeechMirror：A Multimodal Visual Analytics System for Personalized Reflection of Online Public Speaking Effectiveness",
-    "x": -2.334869,
-    "y": 4.428342,
+    "x": -1.409446,
+    "y": -1.119613,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -2915,7 +2915,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -2926,11 +2926,11 @@
   {
     "id": "gao2023transforlearn",
     "title": "TransforLearn：Interactive Visual Tutorial for the Transformer Model",
-    "x": 0.804057,
-    "y": -4.194236,
+    "x": 0.177819,
+    "y": -3.641804,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -2954,8 +2954,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -2967,14 +2967,14 @@
   {
     "id": "he2023videopro",
     "title": "VideoPro：A Visual Analytics Approach for Interactive Video Programming",
-    "x": 4.663888,
-    "y": -1.871483,
+    "x": 2.854402,
+    "y": -2.792181,
     "salon": [
-      "VL-Representation",
-      "VL-Co-learning"
+      "Vision-Language Representation",
+      "Vision-Language Co-learning"
     ],
     "task": [
-      "Foundation Model Visual Interpretation",
+      "Model Interpretability",
       "Classification"
     ],
     "modality": [
@@ -3001,8 +3001,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2023,
@@ -3012,11 +3012,11 @@
   {
     "id": "shao2023visual",
     "title": "Visual Explanation for Open-domain Question Answering with BERT",
-    "x": 0.329812,
-    "y": -4.707697,
+    "x": 0.531891,
+    "y": -4.255124,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -3039,7 +3039,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2023,
@@ -3049,8 +3049,8 @@
   {
     "id": "batch2023uxsense",
     "title": "uxSense：Supporting User Experience Analysis with Visualization and Computer Vision",
-    "x": -0.555794,
-    "y": 4.277481,
+    "x": 0.467299,
+    "y": -1.188634,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -3077,7 +3077,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -3088,11 +3088,11 @@
   {
     "id": "huh2023genassist",
     "title": "GenAssist- Making Image Generation Accessible",
-    "x": -2.043633,
-    "y": -2.202211,
+    "x": 3.137299,
+    "y": -0.569504,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -3115,7 +3115,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -3126,11 +3126,11 @@
   {
     "id": "brade2023promptify",
     "title": "Promptify- Text-to-image generation through interactive prompt exploration with large language models",
-    "x": -2.433982,
-    "y": -1.86893,
+    "x": 3.676317,
+    "y": -0.201798,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -3155,7 +3155,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -3166,11 +3166,11 @@
   {
     "id": "yan2023xcreation",
     "title": "XCreation- A Graph-Based Crossmodal Generative Creativity Support Tool",
-    "x": -2.113311,
-    "y": -0.369381,
+    "x": 2.354082,
+    "y": 0.498777,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -3193,7 +3193,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -3204,11 +3204,11 @@
   {
     "id": "wang2023enabling",
     "title": "Enabling Multimodal User Interactions for Genomics Visualization Creation",
-    "x": 3.349697,
-    "y": -0.091775,
+    "x": -4.040179,
+    "y": 1.165181,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -3232,7 +3232,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2023,
@@ -3242,11 +3242,11 @@
   {
     "id": "bromley2023difference",
     "title": "What Is the Difference Between a Mountain and a Molehill? Quantifying\nSemantic Labeling of Visual Features in Line Charts",
-    "x": 1.590548,
-    "y": 0.619164,
+    "x": -0.568843,
+    "y": 2.696135,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -3274,8 +3274,8 @@
   {
     "id": "li2023image",
     "title": "Image Clustering with External Guidance",
-    "x": 0.891069,
-    "y": -2.210192,
+    "x": 2.437741,
+    "y": -1.795431,
     "salon": [],
     "task": [
       "Classification"
@@ -3296,7 +3296,7 @@
     "specific_view": "散点图、文本标签",
     "interaction": [],
     "evaluation": [
-      "Quantitative Metrics"
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2023,
@@ -3306,8 +3306,8 @@
   {
     "id": "stephan2024text",
     "title": "Text-Guided Image Clustering",
-    "x": 0.827507,
-    "y": -2.199323,
+    "x": 2.392847,
+    "y": -1.77861,
     "salon": [],
     "task": [
       "Classification"
@@ -3329,7 +3329,7 @@
     "specific_view": "散点图、文本标签",
     "interaction": [],
     "evaluation": [
-      "Quantitative Metrics"
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2023,
@@ -3339,8 +3339,8 @@
   {
     "id": "zhou2023intelligent",
     "title": "An intelligent approach to automatically discovering visual insights",
-    "x": 2.464508,
-    "y": 1.327299,
+    "x": 0.037707,
+    "y": 3.171471,
     "salon": [],
     "task": [
       "Annotation",
@@ -3368,7 +3368,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [],
@@ -3379,11 +3379,11 @@
   {
     "id": "chen2023poetry4painting",
     "title": "Poetry4painting：Diversified poetry generation for large-size ancient paintings based on data augmentation",
-    "x": 4.85404,
-    "y": -3.266209,
+    "x": 3.499375,
+    "y": 2.307012,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Natural Image-Language"
@@ -3399,7 +3399,7 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Quantitative Metrics"
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2023,
@@ -3409,11 +3409,11 @@
   {
     "id": "chen2023calliope",
     "title": "Calliope-Net- Automatic Generation of Graph Data Facts via Annotated Node-link Diagrams",
-    "x": 4.096301,
-    "y": 1.767462,
+    "x": -1.891865,
+    "y": 3.730382,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -3437,7 +3437,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -3448,11 +3448,11 @@
   {
     "id": "wang2023commonsensevis",
     "title": "CommonsenseVIS：Visualizing and Understanding Commonsense Reasoning Capabilities of Natural Language Models",
-    "x": 0.760502,
-    "y": -4.47578,
+    "x": 0.327822,
+    "y": -3.327413,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -3477,8 +3477,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -3489,11 +3489,11 @@
   {
     "id": "liu2023generative",
     "title": "Generative Disco：Text-to-Video Generation for Music Visualization",
-    "x": -3.353236,
-    "y": -0.485317,
+    "x": 4.991649,
+    "y": 0.590643,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language-Audio"
@@ -3525,14 +3525,14 @@
   {
     "id": "slyman2023vlslice",
     "title": "VLSlice：Interactive Vision-and-Language Slice Discovery",
-    "x": 2.386477,
-    "y": -3.569175,
+    "x": 3.974355,
+    "y": -2.353652,
     "salon": [
-      "VL-Representation",
-      "VL-Alignment"
+      "Vision-Language Representation",
+      "Vision-Language Alignment"
     ],
     "task": [
-      "Foundation Model Visual Interpretation",
+      "Model Interpretability",
       "Retrieval"
     ],
     "modality": [
@@ -3553,8 +3553,8 @@
     "specific_view": "柱状图、散点图、图像、文本标签",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2023,
@@ -3564,8 +3564,8 @@
   {
     "id": "kim2023mphasis",
     "title": "EmphasisChecker：A Tool for Guiding Chart and Caption Emphasis",
-    "x": 0.864627,
-    "y": 1.383455,
+    "x": -0.05111,
+    "y": 1.91957,
     "salon": [],
     "task": [
       "Grounding"
@@ -3590,8 +3590,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -3602,11 +3602,11 @@
   {
     "id": "coscia2023knowledgevis",
     "title": "KnowledgeVIS：Interpreting Language Models by Comparing Fill-in-the-Blank Prompts",
-    "x": 0.083781,
-    "y": -4.311797,
+    "x": 0.814136,
+    "y": -3.869097,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -3630,7 +3630,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance"
     ],
     "special_tags": [],
@@ -3641,8 +3641,8 @@
   {
     "id": "yang2023interactive",
     "title": "Interactive Reweighting for Mitigating Label Quality Issues",
-    "x": 3.785581,
-    "y": -0.663973,
+    "x": -2.526637,
+    "y": -1.973652,
     "salon": [],
     "task": [
       "Classification"
@@ -3670,8 +3670,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2023,
@@ -3681,11 +3681,11 @@
   {
     "id": "dibia2023lida",
     "title": "LIDA:A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models",
-    "x": -0.833922,
-    "y": -0.457339,
+    "x": 4.055906,
+    "y": 0.962806,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -3701,8 +3701,8 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [
       "Agent"
@@ -3714,8 +3714,8 @@
   {
     "id": "xu2024medillustrator",
     "title": "Medillustrator- Improving Retrospective Learning in Physicians’ Continuous Medical Education via Multimodal Diagnostic Data Alignment and Representation",
-    "x": 4.514071,
-    "y": 0.223546,
+    "x": -4.404795,
+    "y": 0.12981,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -3745,7 +3745,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance"
     ],
     "special_tags": [],
@@ -3756,11 +3756,11 @@
   {
     "id": "woodman2024exploring",
     "title": "Exploring the neural landscape- Visual analytics of neuron activation in large language models with NeuronautLLM",
-    "x": 0.199253,
-    "y": -4.123483,
+    "x": 0.495273,
+    "y": -3.822645,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -3785,7 +3785,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -3795,11 +3795,11 @@
   {
     "id": "li2024can",
     "title": "CAN：Concept-Aligned Neurons for Visual Comparison of Deep Neural Network Models",
-    "x": 1.783731,
-    "y": -3.000401,
+    "x": -0.789245,
+    "y": -3.121307,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image",
@@ -3825,7 +3825,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -3835,11 +3835,11 @@
   {
     "id": "zhao2024cupid",
     "title": "CUPID：Contextual Understanding of Prompt-conditioned Image Distributions",
-    "x": -2.845845,
-    "y": -3.129832,
+    "x": 1.79625,
+    "y": -4.9418,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -3861,7 +3861,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -3871,11 +3871,11 @@
   {
     "id": "dhawka2024better",
     "title": "Better Little People Pictures- Generative Creation of Demographically Diverse Anthropographics",
-    "x": -2.559536,
-    "y": -1.051839,
+    "x": 3.611915,
+    "y": 0.679347,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -3894,7 +3894,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -3904,11 +3904,11 @@
   {
     "id": "zeng2024intenttuner",
     "title": "IntentTuner- An Interactive Framework for Integrating Human Intentions in Fine-tuning Text-to-Image Generative Models",
-    "x": -1.968721,
-    "y": -1.508453,
+    "x": 3.718402,
+    "y": 0.421118,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -3931,8 +3931,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [],
@@ -3943,11 +3943,11 @@
   {
     "id": "wang2024promptcharm",
     "title": "PromptCharm- Text-to-Image Generation through Multi-modal Prompting and Refinement",
-    "x": -2.571575,
-    "y": -1.640867,
+    "x": 3.760536,
+    "y": 0.10395,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -3969,8 +3969,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [],
@@ -3981,11 +3981,11 @@
   {
     "id": "hsu2024scicapenter",
     "title": "SciCapenter- Supporting Caption Composition for Scientific Figures with Machine-Generated Captions and Ratings",
-    "x": 0.725212,
-    "y": 1.565731,
+    "x": 0.082578,
+    "y": 1.951137,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -4006,8 +4006,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -4018,11 +4018,11 @@
   {
     "id": "xiao2024typedance",
     "title": "TypeDance- Creating Semantic Typographic Logos from Image through Personalized Generation",
-    "x": -1.928983,
-    "y": -1.234247,
+    "x": 3.358005,
+    "y": 0.472334,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -4046,7 +4046,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance",
       "User Experience"
     ],
@@ -4058,11 +4058,11 @@
   {
     "id": "ben2024lvlm",
     "title": "LVLM-Intrepret- An Interpretability Tool for Large Vision-Language Models",
-    "x": 2.358832,
-    "y": -2.95573,
+    "x": -3.293456,
+    "y": -2.553945,
     "salon": [],
     "task": [
-      "QA"
+      "Question Answering"
     ],
     "modality": [
       "Natural Image-Language"
@@ -4084,7 +4084,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -4094,11 +4094,11 @@
   {
     "id": "evirgen2024text",
     "title": "From Text to Pixels- Enhancing User Understanding through Text-to-Image Model Explanations",
-    "x": -3.234866,
-    "y": -1.513405,
+    "x": 4.095823,
+    "y": 0.282722,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -4117,7 +4117,7 @@
     "specific_view": "像素热力图",
     "interaction": [],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [],
@@ -4128,8 +4128,8 @@
   {
     "id": "kui2024tsseer",
     "title": "TSSeer：a visual analytics approach for exploring the correlation between teachers’ multimodal emotions and students' behaviors in massive open online courses",
-    "x": -1.981778,
-    "y": 3.766182,
+    "x": -0.301596,
+    "y": -0.478002,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -4157,7 +4157,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -4167,14 +4167,14 @@
   {
     "id": "zhi2019linking",
     "title": "Quantifying and Enabling the Interpretability of CLIP-like Models",
-    "x": 2.527337,
-    "y": -3.681789,
+    "x": 4.072498,
+    "y": -2.459634,
     "salon": [
-      "VL-Representation",
-      "VL-Alignment"
+      "Vision-Language Representation",
+      "Vision-Language Alignment"
     ],
     "task": [
-      "Foundation Model Visual Interpretation",
+      "Model Interpretability",
       "Retrieval"
     ],
     "modality": [
@@ -4194,8 +4194,8 @@
     "specific_view": "热力图、文本标签",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2024,
@@ -4205,8 +4205,8 @@
   {
     "id": "lu2024agentlens",
     "title": "AgentLens：Visual Analysis for Agent Behaviors in LLM-based Autonomous Systems",
-    "x": -3.393159,
-    "y": 1.169852,
+    "x": -2.641394,
+    "y": 0.907642,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -4231,7 +4231,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [
@@ -4244,14 +4244,14 @@
   {
     "id": "zhou2024chartkg",
     "title": "ChartKG：A Knowledge-Graph-Based Representation for Chart Images",
-    "x": 1.372586,
-    "y": 0.085582,
+    "x": -4.096439,
+    "y": -2.355973,
     "salon": [
-      "VL-Alignment",
-      "VL-Fusion"
+      "Vision-Language Alignment",
+      "Vision-Language Fusion"
     ],
     "task": [
-      "QA",
+      "Question Answering",
       "Retrieval"
     ],
     "modality": [
@@ -4267,8 +4267,8 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2024,
@@ -4278,8 +4278,8 @@
   {
     "id": "zhou2024conceptthread",
     "title": "ConceptThread：Visualizing Threaded Concepts in MOOC Videos",
-    "x": -2.406017,
-    "y": 3.641278,
+    "x": 0.002972,
+    "y": -0.268414,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -4307,8 +4307,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [],
@@ -4319,11 +4319,11 @@
   {
     "id": "shen2024data",
     "title": "Data Playwright：Authoring Data Videos with Annotated Narration",
-    "x": 4.776108,
-    "y": 2.499011,
+    "x": -2.89943,
+    "y": 4.221824,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Data Video-Language-Audio"
@@ -4343,7 +4343,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -4354,8 +4354,8 @@
   {
     "id": "choe2024enhancing",
     "title": "Enhancing Data Literacy On-Demand：LLMs as Guides for Novices in Chart Interpretation",
-    "x": -1.446967,
-    "y": 1.42306,
+    "x": -1.719073,
+    "y": 2.115808,
     "salon": [],
     "task": [
       "Annotation"
@@ -4376,7 +4376,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -4387,8 +4387,8 @@
   {
     "id": "gao2024fine",
     "title": "Fine-Tuned Large Language Model for Visualization System：A Study on Self-Regulated Learning in Education",
-    "x": -1.730741,
-    "y": 1.627855,
+    "x": -1.632222,
+    "y": 1.923861,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -4415,8 +4415,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -4427,11 +4427,11 @@
   {
     "id": "hao2024finflier",
     "title": "FinFlier：Automating Graphical Overlays for Financial Visualizations with Knowledge-Grounding Large Language Model",
-    "x": 0.398238,
-    "y": 0.676216,
+    "x": -1.355788,
+    "y": 2.46575,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -4453,8 +4453,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -4465,8 +4465,8 @@
   {
     "id": "zhao2024leva",
     "title": "LEVA：Using Large Language Models to Enhance Visual Analytics",
-    "x": -3.80433,
-    "y": 0.755523,
+    "x": -2.391397,
+    "y": 0.439853,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -4495,8 +4495,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [
@@ -4509,8 +4509,8 @@
   {
     "id": "cai2024linking",
     "title": "Linking Text and Visualizations via Contextual Knowledge Graph",
-    "x": 2.151643,
-    "y": 1.331802,
+    "x": -0.210418,
+    "y": 3.217046,
     "salon": [],
     "task": [
       "Annotation",
@@ -4532,8 +4532,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -4544,15 +4544,15 @@
   {
     "id": "ye2024modalchorus",
     "title": "ModalChorus：Visual Probing and Alignment of Multi-modal Embeddings via Modal Fusion Map",
-    "x": -3.029264,
-    "y": -3.474196,
+    "x": 4.40751,
+    "y": -2.034626,
     "salon": [
-      "VL-Translation",
-      "VL-Alignment",
-      "VL-Co-learning"
+      "Vision-Language Translation",
+      "Vision-Language Alignment",
+      "Vision-Language Co-learning"
     ],
     "task": [
-      "L-V Generation",
+      "Text-to-Image",
       "Classification",
       "Retrieval"
     ],
@@ -4580,8 +4580,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2024,
@@ -4591,11 +4591,11 @@
   {
     "id": "guo2024prompthis",
     "title": "PrompTHis：Visualizing the Process and Influence of Prompt Editing during Text-to-Image Creation",
-    "x": -2.601638,
-    "y": -2.233256,
+    "x": 3.682361,
+    "y": -0.561985,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -4632,8 +4632,8 @@
   {
     "id": "ying2024reviving",
     "title": "Reviving Static Charts into Live Charts",
-    "x": 2.12875,
-    "y": 0.798043,
+    "x": -0.815567,
+    "y": 3.00244,
     "salon": [],
     "task": [
       "Annotation",
@@ -4656,8 +4656,8 @@
     "specific_view": "可视化注释、文本标签",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -4668,8 +4668,8 @@
   {
     "id": "zhang2024scrolltimes",
     "title": "ScrollTimes：Tracing the Provenance of Paintings as a Window into History",
-    "x": -5.046226,
-    "y": -0.187778,
+    "x": 2.355617,
+    "y": 2.113787,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -4697,7 +4697,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -4707,11 +4707,11 @@
   {
     "id": "lee2024sportify",
     "title": "Sportify：Question Answering with Embedded Visualizations and Personified Narratives for Sports Video",
-    "x": 3.093723,
-    "y": 4.996716,
+    "x": 2.769502,
+    "y": 5.090961,
     "salon": [],
     "task": [
-      "QA"
+      "Question Answering"
     ],
     "modality": [
       "Natural Video-Language-Visualization"
@@ -4733,7 +4733,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance"
     ],
     "special_tags": [],
@@ -4744,11 +4744,11 @@
   {
     "id": "li2024visual",
     "title": "Visual Analytics for Efficient Image Exploration and User-Guided Image Captioning",
-    "x": 1.962028,
-    "y": -2.135716,
+    "x": -0.631026,
+    "y": -2.584144,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Natural Image-Language"
@@ -4772,7 +4772,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -4782,11 +4782,11 @@
   {
     "id": "wang2024wonderflow",
     "title": "WonderFlow：Narration-Centric Design of Animated Data Videos",
-    "x": 4.947913,
-    "y": 2.507928,
+    "x": -3.053922,
+    "y": 4.238198,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Data Video-Language-Audio"
@@ -4809,7 +4809,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -4820,8 +4820,8 @@
   {
     "id": "rao2024scriptviz",
     "title": "ScriptViz- A Visualization Tool to Aid Scriptwriting based on a Large Movie Database",
-    "x": 0.089461,
-    "y": 0.004725,
+    "x": 1.011105,
+    "y": 1.032128,
     "salon": [],
     "task": [
       "Retrieval"
@@ -4847,8 +4847,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [],
@@ -4859,8 +4859,8 @@
   {
     "id": "grotschla2024aeye",
     "title": "AEye- A Visualization Tool for Image Datasets",
-    "x": 1.976602,
-    "y": -2.657655,
+    "x": -1.055744,
+    "y": -3.010834,
     "salon": [],
     "task": [
       "Retrieval"
@@ -4886,7 +4886,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -4896,11 +4896,11 @@
   {
     "id": "choi2024bavisitter",
     "title": "Bavisitter- Integrating Design Guidelines into Large Language Models for Visualization Authoring",
-    "x": -1.230885,
-    "y": 1.262662,
+    "x": -1.785197,
+    "y": 2.218294,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -4921,8 +4921,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2024,
@@ -4932,8 +4932,8 @@
   {
     "id": "ha2024confides",
     "title": "Confides- A Visual Analytics Solution for Automated Speech Recognition Analysis and Exploration",
-    "x": -3.883012,
-    "y": 3.582423,
+    "x": -2.483037,
+    "y": -3.888424,
     "salon": [],
     "task": [
       "Annotation"
@@ -4959,7 +4959,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -4969,8 +4969,8 @@
   {
     "id": "bromley2024dash",
     "title": "DASH- A Bimodal Data Exploration Tool for Interactive Text and Visualizations",
-    "x": 2.310728,
-    "y": 1.691395,
+    "x": 0.071659,
+    "y": 2.974265,
     "salon": [],
     "task": [
       "Annotation",
@@ -4996,7 +4996,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -5007,15 +5007,15 @@
   {
     "id": "lee2024diffusion",
     "title": "Diffusion Explainer- Visual Explanation for Text-to-image Stable Diffusion",
-    "x": -3.434818,
-    "y": -1.99029,
+    "x": 4.415198,
+    "y": -0.568229,
     "salon": [
-      "VL-Representation",
-      "VL-Translation"
+      "Vision-Language Representation",
+      "Vision-Language Translation"
     ],
     "task": [
-      "Foundation Model Visual Interpretation",
-      "L-V Generation"
+      "Model Interpretability",
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -5040,7 +5040,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance"
     ],
     "special_tags": [],
@@ -5051,11 +5051,11 @@
   {
     "id": "shen2024data-2",
     "title": "From Data to Story- Towards Automatic Animated Data Video Creation with LLM-based Multi-Agent Systems",
-    "x": 4.720272,
-    "y": 2.14349,
+    "x": -2.741452,
+    "y": 3.941423,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Data Video-Language"
@@ -5070,7 +5070,7 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -5080,8 +5080,8 @@
   {
     "id": "xu2024graphs",
     "title": "From Graphs to Words- A Computer-Assisted Framework for the Production of Accessible Text Descriptions",
-    "x": 1.928892,
-    "y": 1.649638,
+    "x": 0.20853,
+    "y": 2.798651,
     "salon": [],
     "task": [
       "Annotation"
@@ -5102,7 +5102,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -5112,14 +5112,14 @@
   {
     "id": "yildirim2024multimodal",
     "title": "Multimodal Healthcare AI: Identifying and Designing Clinically Relevant Vision-Language Applications for Radiology",
-    "x": 4.997185,
-    "y": -0.303843,
+    "x": -5.20787,
+    "y": 0.502812,
     "salon": [
-      "VL-Translation",
-      "VL-Alignment"
+      "Vision-Language Translation",
+      "Vision-Language Alignment"
     ],
     "task": [
-      "V-L Generation",
+      "Image-to-Text",
       "Retrieval"
     ],
     "modality": [
@@ -5141,7 +5141,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -5152,8 +5152,8 @@
   {
     "id": "dayanandan2024enabling",
     "title": "Enabling Multi-modal Conversational Interface for Clinical Imaging",
-    "x": 5.131294,
-    "y": -0.297619,
+    "x": -5.038043,
+    "y": 0.606598,
     "salon": [],
     "task": [
       "Retrieval"
@@ -5178,7 +5178,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Quantitative Metrics"
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2024,
@@ -5188,8 +5188,8 @@
   {
     "id": "hu2024exploring",
     "title": "Exploring Large-Scale Language Models to Evaluate EEG-Based Multimodal Data for Mental Health",
-    "x": 0.681147,
-    "y": 2.854738,
+    "x": -2.519191,
+    "y": -1.4213,
     "salon": [],
     "task": [
       "Classification"
@@ -5211,8 +5211,8 @@
     "specific_view": "密度图、原始文本",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2024,
@@ -5222,11 +5222,11 @@
   {
     "id": "zeng2024advancing",
     "title": "Advancing Multimodal Large Language Models in Chart Question Answering with Visualization-Referenced Instruction Tuning",
-    "x": 1.729125,
-    "y": -0.256436,
+    "x": -3.825005,
+    "y": -2.207928,
     "salon": [],
     "task": [
-      "QA"
+      "Question Answering"
     ],
     "modality": [
       "Chart Image-Language"
@@ -5242,8 +5242,8 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2024,
@@ -5253,11 +5253,11 @@
   {
     "id": "chen2024invite",
     "title": "Invite- Interpret and control vision-language models with text explanations",
-    "x": 1.857832,
-    "y": -3.918216,
+    "x": -0.42817,
+    "y": -3.472343,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image-Language"
@@ -5275,7 +5275,7 @@
     "specific_view": "热力图、文本",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -5285,11 +5285,11 @@
   {
     "id": "yu2024towards",
     "title": "Towards Dataset-scale and Feature-oriented Evaluation of Text Summarization in Large Language Model Prompts",
-    "x": -0.755459,
-    "y": -3.966052,
+    "x": 1.613875,
+    "y": -3.600477,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -5312,7 +5312,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -5323,11 +5323,11 @@
   {
     "id": "cheng2024snil",
     "title": "SNIL: Generating Sports News From Insights With Large Language Models",
-    "x": 2.598288,
-    "y": 4.202845,
+    "x": 2.395456,
+    "y": 4.324502,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Video-Language-Visualization"
@@ -5351,7 +5351,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -5362,11 +5362,11 @@
   {
     "id": "liu2024ava",
     "title": "AVA：Towards Autonomous Visualization Agents through Visual Perception-Driven Decision-Making",
-    "x": 3.736626,
-    "y": -0.010829,
+    "x": -4.041036,
+    "y": 0.777909,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Scientific Image-Language",
@@ -5391,7 +5391,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [
       "Agent"
@@ -5403,11 +5403,11 @@
   {
     "id": "arawjo2024chainforge",
     "title": "ChainForge：A Visual Toolkit for Prompt Engineering and LLM Hypothesis Testing",
-    "x": -0.986858,
-    "y": -3.832344,
+    "x": 1.866584,
+    "y": -3.59644,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -5431,7 +5431,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -5441,11 +5441,11 @@
   {
     "id": "coscia2024iscore",
     "title": "iScore：Visual Analytics for Interpreting How Language Models Automatically Score Summaries",
-    "x": -0.172543,
-    "y": -4.643586,
+    "x": 1.007934,
+    "y": -4.253676,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -5469,7 +5469,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -5479,11 +5479,11 @@
   {
     "id": "tufanov2024lm",
     "title": "LM Transparency Tool：Interactive Tool for Analyzing Transformer Language Models",
-    "x": 1.446351,
-    "y": -4.504892,
+    "x": -0.46234,
+    "y": -3.900798,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -5506,7 +5506,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -5516,8 +5516,8 @@
   {
     "id": "arakawa2024supporting",
     "title": "Providence：Supporting Experts with a Multimodal Machine-Learning-Based Tool for Human Behavior Analysis of Conversational Videos",
-    "x": -0.569012,
-    "y": 4.569214,
+    "x": 0.745147,
+    "y": -1.302975,
     "salon": [],
     "task": [
       "Retrieval"
@@ -5544,7 +5544,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -5555,11 +5555,11 @@
   {
     "id": "zhou2024epigraphics",
     "title": "Epigraphics：Message-Driven Infographics Authoring",
-    "x": -0.489988,
-    "y": 0.617516,
+    "x": -2.308053,
+    "y": 2.916085,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -5583,7 +5583,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -5594,8 +5594,8 @@
   {
     "id": "andrews2024designing",
     "title": "Designing for Automated Sports Commentary Systems",
-    "x": 2.386969,
-    "y": 4.478577,
+    "x": 2.784804,
+    "y": 4.389872,
     "salon": [],
     "task": [
       "Annotation",
@@ -5622,7 +5622,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -5633,8 +5633,8 @@
   {
     "id": "wang2024lave",
     "title": "LAVE: LLM-Powered Agent Assistance and Language Augmentation for Video Editing",
-    "x": -2.585592,
-    "y": 0.58999,
+    "x": -2.28525,
+    "y": 1.411666,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -5673,11 +5673,11 @@
   {
     "id": "kahng2024llm",
     "title": "LLM Comparator：Visual Analytics for Side-by-Side Evaluation of Large Language Models",
-    "x": -0.521814,
-    "y": -4.629968,
+    "x": 1.290743,
+    "y": -4.286677,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -5698,7 +5698,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2024,
@@ -5708,8 +5708,8 @@
   {
     "id": "li2024omniquery",
     "title": "OmniQery：Enabling Qestion Answering on Personal Memoryby Augmenting Multimodal Album Data",
-    "x": -0.309238,
-    "y": -1.627656,
+    "x": 0.551851,
+    "y": 0.822066,
     "salon": [],
     "task": [
       "Retrieval"
@@ -5739,8 +5739,8 @@
   {
     "id": "zhang2024slicing",
     "title": "Slicing, Chating, and Refining：A Concept-Based Approach for Machine Learning Model Validation with ConceptSlicer",
-    "x": 3.253226,
-    "y": -2.462122,
+    "x": -1.97921,
+    "y": -2.79418,
     "salon": [],
     "task": [
       "Classification"
@@ -5768,8 +5768,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -5780,11 +5780,11 @@
   {
     "id": "templeton2024scaling",
     "title": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
-    "x": 1.065624,
-    "y": -1.444587,
+    "x": -5.343749,
+    "y": -1.586109,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image-Language"
@@ -5809,8 +5809,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2024,
@@ -5820,8 +5820,8 @@
   {
     "id": "shao2025fashioncook",
     "title": "FashionCook：A Visual Analytics System for Human-AI Collaboration in Fashion E-Commerce Design",
-    "x": 0.518904,
-    "y": 3.599336,
+    "x": -0.306711,
+    "y": -1.678927,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -5849,8 +5849,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -5861,8 +5861,8 @@
   {
     "id": "shahriari2025muchex",
     "title": "MuCHEx：A Multimodal Conversational Debugging Tool for Interactive Visual Exploration of Hierarchical Object Classification",
-    "x": -0.157728,
-    "y": -2.934686,
+    "x": 1.421297,
+    "y": -2.39607,
     "salon": [],
     "task": [
       "Classification"
@@ -5887,7 +5887,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -5898,12 +5898,12 @@
   {
     "id": "fu2025dataweaver",
     "title": "DATAWEAVER：Authoring Data-Driven Narratives through the Integrated Composition of Visualization and Text",
-    "x": -0.276258,
-    "y": 1.140942,
+    "x": -2.855372,
+    "y": 2.584748,
     "salon": [],
     "task": [
-      "V-L Generation",
-      "L-V Generation"
+      "Image-to-Text",
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -5936,11 +5936,11 @@
   {
     "id": "chen2025interchat",
     "title": "InterChat：Enhancing Generative Visual Analytics using Multimodal Interactions",
-    "x": -4.225077,
-    "y": -2.513462,
+    "x": -0.553313,
+    "y": 4.997212,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -5962,7 +5962,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance"
     ],
     "special_tags": [],
@@ -5973,11 +5973,11 @@
   {
     "id": "nylund2025matplotalt",
     "title": "MatplotAlt：A Python Library for Adding Alt Text to Matplotlib Figures in Computational Notebooks",
-    "x": 1.107082,
-    "y": 1.764866,
+    "x": 0.208742,
+    "y": 2.292837,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -5992,7 +5992,7 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Quantitative Metrics"
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2025,
@@ -6002,11 +6002,11 @@
   {
     "id": "yan2025vislix",
     "title": "VISLIX：An XAI Framework for Validating Vision Models with Slice Discovery and Analysis",
-    "x": 3.100323,
-    "y": -2.593054,
+    "x": -1.90279,
+    "y": -2.918851,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image-Language"
@@ -6030,7 +6030,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2025,
@@ -6040,11 +6040,11 @@
   {
     "id": "wang2025vizta",
     "title": "VIZTA：Enhancing Comprehension of Distributional Visualization with Visual-Lexical Fused Conversational Interface",
-    "x": -0.019851,
-    "y": 1.790325,
+    "x": -3.604132,
+    "y": 1.995988,
     "salon": [],
     "task": [
-      "QA"
+      "Question Answering"
     ],
     "modality": [
       "Chart Image-Language"
@@ -6066,8 +6066,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2025,
@@ -6077,8 +6077,8 @@
   {
     "id": "zhang2025cpvis",
     "title": "CPVis- Evidence-based Multimodal Learning Analytics for Evaluation in Collaborative Programming",
-    "x": -1.844593,
-    "y": 3.315308,
+    "x": -0.478945,
+    "y": -0.086062,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -6104,8 +6104,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -6116,11 +6116,11 @@
   {
     "id": "lin2025sketchflex",
     "title": "SketchFlex：Facilitating Spatial-Semantic Coherence in Text-to-Image Generation with Region-Based Sketches",
-    "x": -2.274335,
-    "y": -1.278407,
+    "x": 3.227434,
+    "y": 0.305598,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -6145,7 +6145,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -6157,8 +6157,8 @@
   {
     "id": "zhao2025miui",
     "title": "MIUI- Make Interaction Usable on Information Visualization for People with Visual Impairments",
-    "x": -2.193269,
-    "y": 0.975055,
+    "x": -1.436537,
+    "y": 1.431303,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -6181,7 +6181,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [
@@ -6194,15 +6194,15 @@
   {
     "id": "eschner2025interactive",
     "title": "Interactive Discovery and Exploration of Visual Bias in Generative Text-to-Image Models",
-    "x": -4.15269,
-    "y": -2.490075,
+    "x": -0.520386,
+    "y": 5.012702,
     "salon": [
-      "VL-Representation",
-      "VL-Translation"
+      "Vision-Language Representation",
+      "Vision-Language Translation"
     ],
     "task": [
-      "Foundation Model Visual Interpretation",
-      "L-V Generation"
+      "Model Interpretability",
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -6229,7 +6229,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2025,
@@ -6239,11 +6239,11 @@
   {
     "id": "ye2025akrmap",
     "title": "AKRMap Adaptive Kernel Regression for Trustworthy Visualization of Cross-modal Embedding",
-    "x": -3.099447,
-    "y": -3.681612,
+    "x": 4.931446,
+    "y": -1.914319,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Natural Image-Language"
@@ -6264,8 +6264,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2025,
@@ -6275,8 +6275,8 @@
   {
     "id": "chen2024coremix",
     "title": "CoRemix：Supporting Informal Learning in Scratch Community With Visual Graph and Generative AI",
-    "x": -2.485929,
-    "y": 1.900848,
+    "x": 4.688588,
+    "y": 1.577626,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -6302,7 +6302,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -6313,11 +6313,11 @@
   {
     "id": "chen2025mindscratch",
     "title": "MindScratch：A Visual Programming Support Tool for Classroom Learning Based on Multimodal Generative AI",
-    "x": -2.555813,
-    "y": 1.887303,
+    "x": 4.693113,
+    "y": 1.540533,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language-Audio"
@@ -6349,11 +6349,11 @@
   {
     "id": "adamkiewicz2025promptmap",
     "title": "PromptMap- An Alternative Interaction Style for AI-Based Image",
-    "x": -2.946606,
-    "y": -1.637107,
+    "x": 4.057011,
+    "y": -0.030551,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -6387,8 +6387,8 @@
   {
     "id": "he2025poem",
     "title": "POEM：Interactive Prompt Optimization for Enhancing Multimodal Reasoning of Large Language Models",
-    "x": -0.751666,
-    "y": -3.338272,
+    "x": 1.680838,
+    "y": -3.11763,
     "salon": [],
     "task": [
       "Classification"
@@ -6414,7 +6414,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2025,
@@ -6424,11 +6424,11 @@
   {
     "id": "you2025designmanager",
     "title": "DesignManager：An Agent-Powered Copilot for Designers to Integrate AI Design Tools into Creativate Workflows",
-    "x": -2.670148,
-    "y": -0.546226,
+    "x": 3.171546,
+    "y": 0.937816,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -6451,7 +6451,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [
@@ -6464,11 +6464,11 @@
   {
     "id": "wang2025chartinsighter",
     "title": "ChartInsighter：An Approach for Mitigating Hallucination in Time-series Chart Summary Generation with A Benchmark Dataset",
-    "x": 1.041458,
-    "y": 0.501886,
+    "x": -0.743226,
+    "y": 2.295603,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Chart Image-Language"
@@ -6488,8 +6488,8 @@
       "Linking"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [
       "Agent"
@@ -6501,8 +6501,8 @@
   {
     "id": "kui2025grouptrackvis",
     "title": "GroupTrackVis：A Visual Analytics Approach for Online Group Discussion-Based Teaching",
-    "x": -1.874822,
-    "y": 3.454268,
+    "x": -0.458195,
+    "y": -0.240404,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -6531,7 +6531,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -6542,11 +6542,11 @@
   {
     "id": "chen2025human",
     "title": "Human-Guided Image Generation for Expanding Small-Scale Training Image Datasets",
-    "x": -3.165479,
-    "y": -1.965019,
+    "x": 4.230463,
+    "y": -0.285391,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -6570,8 +6570,8 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2025,
@@ -6581,11 +6581,11 @@
   {
     "id": "weng2025insightlens",
     "title": "InsightLens：Augmenting LLM-Powered Data Analysis with Interactive Insight Management and Navigation",
-    "x": -4.547787,
-    "y": 1.181638,
+    "x": -2.73222,
+    "y": 0.212706,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Visual System-Language"
@@ -6608,7 +6608,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -6619,11 +6619,11 @@
   {
     "id": "shao2025narrative",
     "title": "Narrative Player：Reviving Data Narratives with Visuals",
-    "x": 4.359217,
-    "y": 1.998582,
+    "x": -2.372701,
+    "y": 3.852072,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Data Video-Language"
@@ -6645,7 +6645,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -6656,8 +6656,8 @@
   {
     "id": "xuan2025vista",
     "title": "VISTA：A Visual Analytics Framework to Enhance Foundation Model-Generated Data Labels",
-    "x": 2.35546,
-    "y": -2.740577,
+    "x": -1.371537,
+    "y": -2.923442,
     "salon": [],
     "task": [
       "Annotation"
@@ -6685,7 +6685,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -6696,11 +6696,11 @@
   {
     "id": "wei2025cinevision",
     "title": "CineVision- An Interactive Pre-visualization Storyboard System for Director–Cinematographer Collaboration",
-    "x": -3.133047,
-    "y": -1.043022,
+    "x": 4.199996,
+    "y": 0.633569,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Video-Language"
@@ -6717,7 +6717,7 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -6728,11 +6728,11 @@
   {
     "id": "zhao2025noteit",
     "title": "NoteIt- A System Converting Instructional Videos to Interactable Notes Through Multimodal Video Understanding",
-    "x": -1.835261,
-    "y": 2.355191,
+    "x": -0.390065,
+    "y": 0.598677,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Natural Video-Language-Visualization"
@@ -6757,7 +6757,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [
@@ -6770,11 +6770,11 @@
   {
     "id": "han2025poet",
     "title": "POET- Supporting Prompting Creativity and Personalization with Automated Expansion of Text-to-Image Generation",
-    "x": -2.718154,
-    "y": -1.333774,
+    "x": 3.450681,
+    "y": 0.138009,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -6796,7 +6796,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -6807,8 +6807,8 @@
   {
     "id": "koch2025multimodal",
     "title": "A Multimodal Framework for Understanding Collaborative Design Processes",
-    "x": -1.416465,
-    "y": 2.981258,
+    "x": -0.886385,
+    "y": 0.232011,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -6833,7 +6833,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2025,
@@ -6843,11 +6843,11 @@
   {
     "id": "sevastjanova2025layerflow",
     "title": "LayerFlow: Layer-wise Exploration of LLM Embeddings using Uncertainty-aware Interlinked Projections",
-    "x": -0.371331,
-    "y": -4.976147,
+    "x": 1.219583,
+    "y": -4.659847,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -6870,7 +6870,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2025,
@@ -6880,8 +6880,8 @@
   {
     "id": "xia2025enhancing",
     "title": "Enhancing Visual Analysis in Person Re-Identification with Vision-Language Models",
-    "x": 0.123965,
-    "y": -2.069528,
+    "x": 1.907371,
+    "y": -1.503682,
     "salon": [],
     "task": [
       "Retrieval"
@@ -6906,7 +6906,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Performance"
     ],
     "special_tags": [],
@@ -6917,8 +6917,8 @@
   {
     "id": "shin2025visualizationary",
     "title": "Visualizationary: Automating Design Feedback for Visualization Designers Using LLMs",
-    "x": -1.001559,
-    "y": 0.943524,
+    "x": -2.175684,
+    "y": 2.376007,
     "salon": [],
     "task": [
       "Annotation"
@@ -6952,8 +6952,8 @@
   {
     "id": "shapiro2025exploratory",
     "title": "Exploratory Visual Analysis of Transcripts for Interaction Analysis in Human-Computer Interaction",
-    "x": -1.20556,
-    "y": 3.272859,
+    "x": -1.097977,
+    "y": -0.089068,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -6977,7 +6977,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -6988,11 +6988,11 @@
   {
     "id": "zhang2025inkspirit",
     "title": "InkSpirit: An expert knowledge-driven approach for enhancing the visual logic of traditional Chinese painting text-to-image generation",
-    "x": -3.948824,
-    "y": -0.929798,
+    "x": 3.115092,
+    "y": 1.717211,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -7015,8 +7015,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -7027,8 +7027,8 @@
   {
     "id": "ye2024contemporary",
     "title": "The Contemporary Art of Image Search: Iterative User Intent Expansion via Vision-Language Model",
-    "x": -1.119753,
-    "y": -1.572381,
+    "x": 2.396435,
+    "y": -0.566016,
     "salon": [],
     "task": [
       "Retrieval"
@@ -7056,7 +7056,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -7067,11 +7067,11 @@
   {
     "id": "chen2025coda",
     "title": "Agentic Systems for Collaborative Data Visualization",
-    "x": 0.407237,
-    "y": -0.931639,
+    "x": -4.915942,
+    "y": -1.152857,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Visual System-Language"
@@ -7089,7 +7089,7 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Quantitative Metrics"
+      "Quantitative Experiment"
     ],
     "special_tags": [
       "Agent"
@@ -7101,11 +7101,11 @@
   {
     "id": "pang2025interactive",
     "title": "Interactive Reasoning：Visualizing and Controlling Chain-of-Thought Reasoning in Large Language Models",
-    "x": -1.264631,
-    "y": -4.300661,
+    "x": 2.031558,
+    "y": -4.142731,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -7137,8 +7137,8 @@
   {
     "id": "das2025misvisfix",
     "title": "MisVisFix：An Interactive Dashboard for Detecting, Explaining, and Correcting Misleading Visualizations using Large Language Models",
-    "x": 1.009611,
-    "y": -1.09118,
+    "x": -5.12799,
+    "y": -1.439354,
     "salon": [],
     "task": [
       "Grounding"
@@ -7166,8 +7166,8 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2025,
@@ -7177,8 +7177,8 @@
   {
     "id": "li2025demo",
     "title": "A Demo of GeoQA3：Towards An Accessible AI-basedQuestion-Answering System for Geoanalytics",
-    "x": -3.614627,
-    "y": 2.079106,
+    "x": -2.669758,
+    "y": -0.313754,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -7202,7 +7202,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2025,
@@ -7212,14 +7212,14 @@
   {
     "id": "liu2025correctme",
     "title": "CorrectMe：An Interactive Framework forHuman-in-the-Loop Correction and Explanation of ObjectDetection Models",
-    "x": 1.937596,
-    "y": -3.340111,
+    "x": 3.707421,
+    "y": -2.220051,
     "salon": [
-      "VL-Representation",
-      "VL-Alignment"
+      "Vision-Language Representation",
+      "Vision-Language Alignment"
     ],
     "task": [
-      "Foundation Model Visual Interpretation",
+      "Model Interpretability",
       "Grounding"
     ],
     "modality": [
@@ -7252,11 +7252,11 @@
   {
     "id": "mishra2023promptaid",
     "title": "PromptAid：Prompt Exploration, Perturbation, Testing and Iteration using Visual Analytics for Large Language Models",
-    "x": -0.674228,
-    "y": -3.873451,
+    "x": 1.563004,
+    "y": -3.643489,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -7280,7 +7280,7 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -7291,11 +7291,11 @@
   {
     "id": "zhou2024stylefactory",
     "title": "StyleFactory：Towards Better Style Alignment in Image Creation through Style-Strength-Based Control and Evaluation",
-    "x": -3.318742,
-    "y": -1.182801,
+    "x": 4.430773,
+    "y": 0.28687,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -7319,7 +7319,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -7330,8 +7330,8 @@
   {
     "id": "lin2025sportsbuddy",
     "title": "SportsBuddy: Designing and Evaluating an AI-Powered Sports Video Storytelling Tool Through Real-World Deployment",
-    "x": 2.798889,
-    "y": 4.456346,
+    "x": 2.456176,
+    "y": 4.546496,
     "salon": [],
     "task": [
       "Annotation",
@@ -7359,7 +7359,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [],
     "year": 2025,
@@ -7369,8 +7369,8 @@
   {
     "id": "qiu2025smartmlvs",
     "title": "SmartMLVs- LLM-enabled Multiple Linked Views Generation for Interactive Visualization",
-    "x": -0.866269,
-    "y": 2.102807,
+    "x": -1.588011,
+    "y": 0.630968,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -7392,8 +7392,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -7404,8 +7404,8 @@
   {
     "id": "zhang2025cultiverse",
     "title": "CultiVerse: Towards Cross-Cultural Understanding for Paintings with Large Language Model",
-    "x": -4.675516,
-    "y": -0.484236,
+    "x": 2.71313,
+    "y": 1.94877,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -7442,8 +7442,8 @@
   {
     "id": "he2025protal",
     "title": "ProTAL- A Drag-and-Link Video Programming Framework for Temporal Action Localization",
-    "x": 4.847155,
-    "y": -1.668609,
+    "x": 2.002384,
+    "y": 3.824206,
     "salon": [],
     "task": [
       "Annotation",
@@ -7481,11 +7481,11 @@
   {
     "id": "xu2025advancing",
     "title": "Advancing Problem-Based Learning with Clinical Reasoning for Improved Diferential Diagnosis in Medical Education",
-    "x": 4.848222,
-    "y": -0.030984,
+    "x": -4.944622,
+    "y": 0.264982,
     "salon": [],
     "task": [
-      "QA"
+      "Question Answering"
     ],
     "modality": [
       "Scientific Image-Language"
@@ -7506,8 +7506,8 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -7518,8 +7518,8 @@
   {
     "id": "ye2025hypermooc",
     "title": "HyperMOOC- Augmenting MOOC Videos with Concept-based Embedded Visualizations",
-    "x": -2.370511,
-    "y": 3.579502,
+    "x": -0.039208,
+    "y": -0.173718,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -7546,7 +7546,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -7557,11 +7557,11 @@
   {
     "id": "shen2025dashchat",
     "title": "DashChat: Interactive Authoring of Industrial Dashboard Design Prototypes through Conversation with LLM-Powered Agents",
-    "x": -4.309945,
-    "y": 0.985481,
+    "x": -3.099536,
+    "y": 0.403224,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Visual System-Language"
@@ -7583,7 +7583,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [
       "Agent"
@@ -7595,14 +7595,14 @@
   {
     "id": "he2025chartblender",
     "title": "ChartBlender：An Interactive System for Authoring and Synchronizing Visualization Charts in Video",
-    "x": 3.168991,
-    "y": 2.445864,
+    "x": 3.919051,
+    "y": -1.774603,
     "salon": [
-      "VL-Translation",
-      "VL-Alignment"
+      "Vision-Language Translation",
+      "Vision-Language Alignment"
     ],
     "task": [
-      "L-V Generation",
+      "Text-to-Image",
       "Grounding"
     ],
     "modality": [
@@ -7625,7 +7625,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -7636,11 +7636,11 @@
   {
     "id": "yan2025charteditor",
     "title": "ChartEditor：A Human-AI Paired Tool for Authoring Pictorial Charts",
-    "x": -1.298818,
-    "y": -0.673754,
+    "x": 3.683451,
+    "y": 1.249127,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -7665,8 +7665,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -7677,8 +7677,8 @@
   {
     "id": "zhang2025facilitating",
     "title": "Facilitating Video Story Interaction with Multi-Agent Collaborative System",
-    "x": -2.427938,
-    "y": 1.081121,
+    "x": -1.780251,
+    "y": 1.388501,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -7703,7 +7703,7 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [
@@ -7716,11 +7716,11 @@
   {
     "id": "wang2025script2screen",
     "title": "Script2Screen：Supporting Dialogue Scriptwriting with Interactive Audiovisual Generation",
-    "x": -1.452398,
-    "y": -0.018486,
+    "x": 1.640948,
+    "y": 0.691831,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Video-Language-Audio"
@@ -7744,7 +7744,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -7755,11 +7755,11 @@
   {
     "id": "yang2025multimodal",
     "title": "Multimodal DeepResearche：Generating Text-Chart Interleaved Reports From Scratch with Agentic Framework",
-    "x": 0.630859,
-    "y": -0.801145,
+    "x": -4.742087,
+    "y": -1.335242,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Document-Language-Visualization"
@@ -7778,7 +7778,7 @@
     "specific_view": "多样化图表、文本标签",
     "interaction": [],
     "evaluation": [
-      "Quantitative Metrics",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [
@@ -7791,15 +7791,15 @@
   {
     "id": "dong2025probing",
     "title": "Probing the Visualization Literacy of Vision Language Models：the Good, the Bad, and the Ugly",
-    "x": 1.715855,
-    "y": -0.609811,
+    "x": -4.332982,
+    "y": -2.188636,
     "salon": [
-      "VL-Representation",
-      "VL-Fusion"
+      "Vision-Language Representation",
+      "Vision-Language Fusion"
     ],
     "task": [
-      "Foundation Model Visual Interpretation",
-      "QA"
+      "Model Interpretability",
+      "Question Answering"
     ],
     "modality": [
       "Chart Image-Language"
@@ -7821,8 +7821,8 @@
       "Filtering"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2025,
@@ -7832,11 +7832,11 @@
   {
     "id": "wang2025vismodal",
     "title": "VisMoDAl- Visual Analytics for Evaluating and Improving Corruption Robustness of Vision-Language Models",
-    "x": 1.977729,
-    "y": -2.148776,
+    "x": -0.646198,
+    "y": -2.606149,
     "salon": [],
     "task": [
-      "V-L Generation"
+      "Image-to-Text"
     ],
     "modality": [
       "Natural Image-Language"
@@ -7862,8 +7862,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -7874,8 +7874,8 @@
   {
     "id": "zhao2024lightva",
     "title": "LightVA- Lightweight Visual Analytics with LLM Agent-Based Task Planning and Execution",
-    "x": -3.525512,
-    "y": 0.917804,
+    "x": -2.371526,
+    "y": 0.658134,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -7901,8 +7901,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [
@@ -7915,8 +7915,8 @@
   {
     "id": "chen2025rhythmta",
     "title": "RhythmTA- A Visual-Aided Interactive System for ESL Rhythm Training via Dubbing Practice",
-    "x": -2.532325,
-    "y": 4.209693,
+    "x": -1.546555,
+    "y": -0.870035,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -7942,8 +7942,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -7954,11 +7954,11 @@
   {
     "id": "xiang2025sel3dcraft",
     "title": "Sel3DCraft- Interactive Visual Prompts for User-Friendly Text-to-3D Generation",
-    "x": -3.969235,
-    "y": -1.510532,
+    "x": 2.351958,
+    "y": 0.004443,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image",
@@ -7990,8 +7990,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -8002,8 +8002,8 @@
   {
     "id": "duan2025ow",
     "title": "OW-CLIP- Data-Efficient Visual Supervision for Open-World Object Detection via Human-AI Collaboration",
-    "x": 2.872426,
-    "y": -1.53322,
+    "x": -1.421291,
+    "y": -2.181564,
     "salon": [],
     "task": [
       "Annotation"
@@ -8032,8 +8032,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -8044,8 +8044,8 @@
   {
     "id": "zhao2025proactiveva",
     "title": "ProactiveVA- Proactive Visual Analytics with LLM-Based UI Agent",
-    "x": -3.713443,
-    "y": 0.978379,
+    "x": -2.615673,
+    "y": 0.676707,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -8071,8 +8071,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [
@@ -8085,11 +8085,11 @@
   {
     "id": "li2025conceptviz",
     "title": "ConceptViz- A Visual Analytics Approach for Exploring Concepts in Large Language Models",
-    "x": -1.315957,
-    "y": -4.840066,
+    "x": 0.565499,
+    "y": -5.245392,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -8114,7 +8114,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -8125,11 +8125,11 @@
   {
     "id": "gao2025sceneloom",
     "title": "SceneLoom- Communicating Data with Scene Context",
-    "x": 3.121107,
-    "y": 2.165957,
+    "x": -2.316973,
+    "y": 3.189718,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -8163,11 +8163,11 @@
   {
     "id": "DkmapInteractiveExplorationOfVis",
     "title": "DKMap- Interactive Exploration of Vision-Language Alignment in Multimodal Embeddings via Dynamic Kernel Enhanced Projection",
-    "x": -3.142611,
-    "y": -3.603823,
+    "x": 4.831709,
+    "y": -1.923953,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -8192,8 +8192,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2025,
@@ -8203,8 +8203,8 @@
   {
     "id": "lange2025yac",
     "title": "YAC：Bridging Natural Language and Interactive Visual Exploration with Generative AI for Biomedical Data Discovery",
-    "x": -3.950784,
-    "y": 1.415733,
+    "x": -3.329081,
+    "y": 0.59558,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -8230,7 +8230,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study"
+      "Case Study"
     ],
     "special_tags": [
       "Agent"
@@ -8242,8 +8242,8 @@
   {
     "id": "pan2025agentcoord",
     "title": "AgentCoord：Visually Exploring Coordination Strategy for LLM-based Multi-Agent Collaboration",
-    "x": -3.874385,
-    "y": 1.202644,
+    "x": -2.871828,
+    "y": 0.587058,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -8270,7 +8270,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [
@@ -8283,11 +8283,11 @@
   {
     "id": "huang2025promptnavi",
     "title": "PromptNavi：Text-to-image generation through interactive prompt visual exploration",
-    "x": -2.459201,
-    "y": -1.488324,
+    "x": 3.197291,
+    "y": 0.05347,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -8312,8 +8312,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -8325,11 +8325,11 @@
   {
     "id": "leong2025paratrouper",
     "title": "Paratrouper：Exploratory Creation of Character Cast Visuals Using Generative AI",
-    "x": -2.111355,
-    "y": -0.90349,
+    "x": 3.010252,
+    "y": 0.689705,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -8354,7 +8354,7 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -8365,11 +8365,11 @@
   {
     "id": "huang2025vipera",
     "title": "Vipera：Blending Visual and LLM-Driven Guidance for Systematic Auditing of Text-to-Image Generative AI",
-    "x": -2.477176,
-    "y": -0.7992,
+    "x": 2.865341,
+    "y": 0.526591,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Image-Language"
@@ -8396,8 +8396,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -8409,8 +8409,8 @@
   {
     "id": "andrews2024aicommentator",
     "title": "AiCommentator：A Multimodal Conversational Agent for Embedded Visualization in Football Viewing",
-    "x": 2.191766,
-    "y": 4.500709,
+    "x": 2.936462,
+    "y": 4.360836,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -8437,8 +8437,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [
@@ -8451,11 +8451,11 @@
   {
     "id": "zhao2025visaug",
     "title": "VisAug：Facilitating Speech-Rich Web Video Navigation and Engagement with Auto-Generated Visual Augmentations",
-    "x": 0.450156,
-    "y": 4.381703,
+    "x": 0.808614,
+    "y": -0.519103,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Video-Language-Audio"
@@ -8478,8 +8478,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -8491,12 +8491,12 @@
   {
     "id": "tian2025respark",
     "title": "ReSpark：Leveraging Previous Data Reports as References to Generate New Reports with LLMs",
-    "x": -0.029473,
-    "y": -0.423399,
+    "x": -4.318792,
+    "y": -1.035666,
     "salon": [],
     "task": [
-      "V-L Generation",
-      "L-V Generation"
+      "Image-to-Text",
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -8518,8 +8518,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [
@@ -8532,8 +8532,8 @@
   {
     "id": "huang2025sketchgpt",
     "title": "SketchGPT：A Sketch-based Multimodal Interface for ApplicationAgnostic LLM Interaction",
-    "x": -2.401309,
-    "y": 0.139532,
+    "x": 2.61555,
+    "y": 1.087185,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -8559,8 +8559,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [
@@ -8573,8 +8573,8 @@
   {
     "id": "yusong2025heritageexplorer",
     "title": "HeritageExplorer：Interactive Visualization and Dialogue System for Multi-modal Architectural Heritage Exploration",
-    "x": -5.237377,
-    "y": -0.125664,
+    "x": 2.223461,
+    "y": 2.224936,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -8601,8 +8601,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2025,
@@ -8612,8 +8612,8 @@
   {
     "id": "xie2025datawink",
     "title": "DataWink：Reusing and Adapting SVG-based Visualization Examples with Large Multimodal Models",
-    "x": -1.731173,
-    "y": 0.715417,
+    "x": -1.039105,
+    "y": 1.475607,
     "salon": [],
     "task": [
       "Grounded Dialogue"
@@ -8638,7 +8638,7 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
+      "Case Study",
       "User Experience"
     ],
     "special_tags": [],
@@ -8649,11 +8649,11 @@
   {
     "id": "goswami2025plotedit",
     "title": "PlotEdit: Natural Language-Driven Accessible Chart\nEditing in PDFs via Multimodal LLM Agents",
-    "x": -0.562781,
-    "y": -0.288055,
+    "x": -2.549156,
+    "y": 1.582123,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Chart Image-Language"
@@ -8668,7 +8668,7 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Quantitative Metrics"
+      "Quantitative Experiment"
     ],
     "special_tags": [
       "Agent"
@@ -8680,11 +8680,11 @@
   {
     "id": "kaur2025chartagent",
     "title": "ChartAgent: A Multimodal Agent for Visually Grounded Reasoning\nin Complex Chart Question Answering",
-    "x": 1.292438,
-    "y": -0.720352,
+    "x": -4.416877,
+    "y": -1.757874,
     "salon": [],
     "task": [
-      "QA"
+      "Question Answering"
     ],
     "modality": [
       "Chart Image-Language"
@@ -8704,8 +8704,8 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [
       "Agent"
@@ -8717,11 +8717,11 @@
   {
     "id": "huang2025chartsketcher",
     "title": "ChartSketcher: Reasoning with Multimodal Feedback\nand Reflection for Chart Understanding",
-    "x": 1.173803,
-    "y": -0.689381,
+    "x": -4.576696,
+    "y": -1.730478,
     "salon": [],
     "task": [
-      "QA"
+      "Question Answering"
     ],
     "modality": [
       "Chart Image-Language"
@@ -8740,8 +8740,8 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [
       "Agent"
@@ -8753,11 +8753,11 @@
   {
     "id": "wei2025graphchain",
     "title": "GraphChain: Large Language Models for Large-scale\nGraph Analysis via Tool Chaining",
-    "x": 0.970145,
-    "y": -0.789339,
+    "x": -4.54701,
+    "y": -1.566053,
     "salon": [],
     "task": [
-      "QA"
+      "Question Answering"
     ],
     "modality": [
       "Chart Image-Language"
@@ -8774,8 +8774,8 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [
       "Agent"
@@ -8787,8 +8787,8 @@
   {
     "id": "shi2025medebiaser",
     "title": "MEDebiaser- A Human-AI Feedback System for Mitigating Bias in Multi-label Medical Image Classification",
-    "x": 4.444954,
-    "y": -0.263918,
+    "x": -4.704326,
+    "y": 0.350752,
     "salon": [],
     "task": [
       "Classification"
@@ -8815,8 +8815,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [],
@@ -8827,11 +8827,11 @@
   {
     "id": "chen2025mv",
     "title": "MV-Crafter- An Intelligent System for Music-guided Video Generation",
-    "x": -3.420538,
-    "y": -0.435472,
+    "x": 5.043243,
+    "y": 0.5596,
     "salon": [],
     "task": [
-      "L-V Generation"
+      "Text-to-Image"
     ],
     "modality": [
       "Natural Video-Language-Audio"
@@ -8855,8 +8855,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -8867,8 +8867,8 @@
   {
     "id": "xuan2025attributionscanner",
     "title": "AttributionScanner：A Visual Analytics System for Model Validation with Metadata-Free Slice Finding",
-    "x": 3.223178,
-    "y": -2.493618,
+    "x": -1.962479,
+    "y": -2.825757,
     "salon": [],
     "task": [
       "Classification"
@@ -8894,8 +8894,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -8906,11 +8906,11 @@
   {
     "id": "bayat2025steering",
     "title": "Steering Large Language Model Activations in Sparse Spaces",
-    "x": -1.364982,
-    "y": -4.829958,
+    "x": 0.564951,
+    "y": -5.277302,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -8926,7 +8926,7 @@
     "specific_view": "",
     "interaction": [],
     "evaluation": [
-      "Quantitative Metrics"
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2025,
@@ -8936,8 +8936,8 @@
   {
     "id": "cheng2025ragtrace",
     "title": "RAGTrace：Understanding and Refining Retrieval-Generation Dynamics in Retrieval-Augmented Generation",
-    "x": -4.570299,
-    "y": 2.04908,
+    "x": -3.428015,
+    "y": -0.460222,
     "salon": [],
     "task": [
       "Retrieval"
@@ -8967,8 +8967,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [
@@ -8981,8 +8981,8 @@
   {
     "id": "murtagh2025athena",
     "title": "Athena：A Conversational Book Discovery Interface CombiningLLM-Powered Retrieval-Augmented Generation and InteractiveGraph Visualization",
-    "x": -4.206516,
-    "y": 2.023492,
+    "x": -3.155179,
+    "y": -0.312349,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -9007,8 +9007,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [
@@ -9021,11 +9021,11 @@
   {
     "id": "wang2025xgraphrag",
     "title": "XGraphRAG：Interactive Visual Analysis for Graph-based Retrieval-Augmented Generation",
-    "x": -4.681527,
-    "y": 1.933883,
+    "x": -3.311603,
+    "y": -0.533189,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Visual System-Language"
@@ -9049,8 +9049,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance"
     ],
     "special_tags": [
@@ -9063,11 +9063,11 @@
   {
     "id": "tian2026ragexplorer",
     "title": "RAGExplorer：A Visual Analytics System for the Comparative Diagnosis of RAG Systems",
-    "x": -4.663445,
-    "y": 2.080988,
+    "x": -3.450548,
+    "y": -0.615086,
     "salon": [],
     "task": [
-      "QA"
+      "Question Answering"
     ],
     "modality": [
       "Visual System-Language"
@@ -9093,8 +9093,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [
@@ -9107,8 +9107,8 @@
   {
     "id": "zhang2026dava",
     "title": "DAVA：Decoding Art with Visual Analytics through Feature Modeling and Multi-Agent Collaboration",
-    "x": -5.012822,
-    "y": 0.028353,
+    "x": 2.087521,
+    "y": 2.055525,
     "salon": [],
     "task": [
       "Multimodal Collaborative Analysis"
@@ -9139,8 +9139,8 @@
       "Recording/History"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Performance",
       "User Experience"
     ],
@@ -9154,14 +9154,14 @@
   {
     "id": "li2026compovis",
     "title": "CompoVis: Is Cross-modal Semantic Alignment of CLIP Optimal? A Visual Analysis Attempt",
-    "x": 2.293298,
-    "y": -3.682465,
+    "x": 4.076805,
+    "y": -2.23532,
     "salon": [
-      "VL-Representation",
-      "VL-Alignment"
+      "Vision-Language Representation",
+      "Vision-Language Alignment"
     ],
     "task": [
-      "Foundation Model Visual Interpretation",
+      "Model Interpretability",
       "Matching"
     ],
     "modality": [
@@ -9185,8 +9185,8 @@
       "What-If"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics",
+      "Case Study",
+      "Quantitative Experiment",
       "User Experience"
     ],
     "special_tags": [],
@@ -9197,11 +9197,11 @@
   {
     "id": "shu2026completereplacement",
     "title": "Bridging the Attention Gap: Complete Replacement Models for Complete Circuit Tracing",
-    "x": 1.684492,
-    "y": -4.759085,
+    "x": -0.786122,
+    "y": -4.173064,
     "salon": [],
     "task": [
-      "Foundation Model Visual Interpretation"
+      "Model Interpretability"
     ],
     "modality": [
       "Language"
@@ -9225,8 +9225,8 @@
       "Viewpoint Control"
     ],
     "evaluation": [
-      "Qualitative Case Study",
-      "Quantitative Metrics"
+      "Case Study",
+      "Quantitative Experiment"
     ],
     "special_tags": [],
     "year": 2026,
